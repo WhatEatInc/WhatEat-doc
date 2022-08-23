@@ -76,7 +76,7 @@ A la fin de chaque sprint, une deuxième réunion est organisée afin de faire u
 
 ### Organisation des branches
 
-Git flow définit une organisation précise des branches mais trop complexes selon nous pour le cadre de ce projet. Voici donc la version choisie qui simplifie un peu celle de git flow.
+Nous avons choisi d'utiliser l'organisation de branches suivantes pour notre projet :
 
 - Branche `main` contenant la dernière version stable du logiciel. Cette branche est protégée et il est nécessaire qu'une PR soit faite depuis la branche `develop`. Cette PR doit être validée par un autre membre de l'équipe afin d'être merge.
 - Branche `develop` contenant la version en cours de développement du logiciel
@@ -87,7 +87,7 @@ Git flow définit une organisation précise des branches mais trop complexes sel
 
 - Un template d'issue a été créé afin que toutes respectent le même format et ce afin de faciliter la compréhension et la lisibilité. 
 - Une issue doit contenir une brève description, la liste des tâches à réaliser, la durée ainsi que les éventuelles dépendances à d'autres tâches requises
-- Lorsqu'un membre de l'équipe commence à travailler sur une tâche, il s'associe la tâche et crée une nouvelle `feature branch` pour y écrire le code.
+- Lorsqu'un membre de l'équipe commence à travailler sur une tâche, il s'associe la tâche et crée une nouvelle `feature branch` pour y écrire le code. Il doit également faire une estimation du temps nécessaire (Optimiste, Pessimiste, Attendu)
 - Une fois la feature terminée, il faut créer une PR depuis Github et assigner au moins une personne afin de review le code. Elle doit être validée par au moins un autre membre du groupe avant d'être merge par son créateur ou quelqu'un d'autre.
 - Une fois la PR validée, il est alors possible de merge la feature branche avec `develop`, supprimer la branche et fermer l'issue.
 
