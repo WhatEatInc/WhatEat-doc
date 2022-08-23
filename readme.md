@@ -6,11 +6,11 @@ Notre application va vous aider pour tous vos problèmes de repas. Avec **WhatEa
 
 ## Groupe de travail
 
-- Rui Filipe Lopes Gouveia (rui.lopesgouveia@heig-vd.ch) -  [TODO ROLE]
-- Thibault Seem (thibault.seem@heig-vd.ch) - [TODO ROLE]
-- Joachim Bailat (joachim.bailat@heig-vd.ch) - [TODO ROLE]
-- Hadrien Louis (hadrien.louis@heig-vd.ch) - Chef de projet
-- Damiano Mondaini (damiano.mondaini@heig-vd.ch) -  [TODO ROLE]
+- Rui Filipe Lopes Gouveia (rui.lopesgouveia@heig-vd.ch) - ISCR - [TODO ROLE]
+- Thibault Seem (thibault.seem@heig-vd.ch) - ISCL - [TODO ROLE]
+- Joachim Bailat (joachim.bailat@heig-vd.ch) - ISCS [TODO ROLE]
+- Hadrien Louis (hadrien.louis@heig-vd.ch) - ISCL - Chef de projet
+- Damiano Mondaini (damiano.mondaini@heig-vd.ch) - ISCL -  [TODO ROLE]
 
 ## Technologies utilisées
 
