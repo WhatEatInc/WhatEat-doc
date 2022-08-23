@@ -1,21 +1,37 @@
-# Processus de travail
+# Cours PDG - Rapport de projet
 
-# But du projet
+Dans le cadre du cours PDG de la HEIG-VD, nous devons réaliser un travail de groupe qui consiste à développer une application web.
 
-# Groupe de travail
+Notre application va vous aider pour tous vos problèmes de repas. Avec **WhatEat** vous obtenez tous les jours des repas personnalisés selon vos préférences.
 
-# Technologies utilisées
+## Groupe de travail
 
-- Javascript pour le langage
-- React et React-Bootstrap pour le front-end
-- Node.js pour l’environnement back-end
-- Express pour le back-end
-- Database Mango
+- Rui Filipe Lopes Gouveia
+- Thibault Seem
+- Joachim Bailat 
+- Hadrien Louis
+- Damiano Mondaini
+
+## Technologies utilisées
+
+Pour la réalisation de ce projet, nous avons utilisé les technologies suivantes
+
+- Javascript
+- Node.js
+- React et React-Bootstrap
+- ExpresJS
+- Base de données MangoDB
 - Serveur Heroku
 - Repository Github avec Kanban
 - Automatisation Github Actions
-- Jest pour les test unitaire (autres solutions : mocha ou chai)
+- Jest pour les tests unitaire
 
-# Méthodologie
+## Méthodologie
 
-# Méthodes de développement
+## Méthodes de développement
+
+### Organisation des branches
+
+### Gestion des issues
+
+### Messages de commit
