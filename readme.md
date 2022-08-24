@@ -33,7 +33,7 @@ Pour la réalisation de ce projet, nous avons utilisé les technologies suivante
 - Repository Github avec Kanban
    - Nous avons déjà appris a utilisé ces outils dans nos précédent cours.
 - Automatisation des tests avec Github Actions
-  - Nous avions décider d'utilisé Github Actions, car notre repository est sur Gtihub
+  - Nous avions décider d'utilisé Github Actions pour faire executer nos test d'intégrations automatiquement, car notre repository est sur Gtihub
 - Jest pour les tests d'intégration
   - Nous nous sommes aussi renseigné Mocha et Chai.
 - Prettier pour le formattage du code
