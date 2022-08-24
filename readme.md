@@ -29,7 +29,7 @@ Pour la réalisation de ce projet, nous avons utilisé les technologies suivante
 - Serveur Heroku
    - Après avoir comparé avec plusieurs service d'hébergement de site web sont sommes parti sur Heroku, il est simple à utilisé et gratuit pour les projects non commercial. Nous avons mis le back-end dessus.
 - Serveur Netlify
-   - Après avoir essayer de mettre sur Heroku nous avons décidé de hoster le front-end sur un serveur différent.
+   - Après avoir essayer de mettre le frontend sur Heroku, nous avons décidé de hoster le frontend sur un serveur différent. Nous avons choisi de le mettre sur Netlify pour sa faciliter d'utilisation.
 - Repository Github avec Kanban
    - Nous avons déjà appris a utilisé ces outils dans nos précédent cours.
 - Automatisation des tests avec Github Actions
