@@ -21,8 +21,11 @@ Pour la réalisation de ce projet, nous avons utilisé les technologies suivante
 - Node.js
    - Nous avons décider d'utiliser Node.js comme moteur pour le code JS. C'est le plus populaire du marché.
 - React et React-Bootstrap
+   - Plusieurs personnes de l'équipe avait déjà connaissance de React et nous décider d'utiliser React-Bootstrap pour la mise en page.
 - ExpresJS
-- Base de données MangoDB et Mangoose
+   - ExpressJS est devenue DeFacto le framework backend en conjonction avec node.js
+- Base de données MongoDB et Mongoose
+   - TODO
 - Serveur Heroku
    - Après avoir comparé avec plusieurs service d'hébergement de site web sont sommes parti sur Heroku, il est simple à utilisé et gratuit pour les projects non commercial. Nous avons mis le back-end dessus.
 - Serveur Netlify
@@ -36,7 +39,7 @@ Pour la réalisation de ce projet, nous avons utilisé les technologies suivante
 - Prettier pour le formattage du code
   - Nous avons prefére Prettier à un ESlint, car cela est plus facile à utiliser pour tous les membres du groupe.
 - Spooncular API
-   - API
+   - Nous avons chercher les différentes API de nourriture et Spooncular est resorti comme étant très complète, mais payante. Nous les avons contacté, car nous avons vu qu'il avit une offre pour les porjects académique.
 
 ## Méthodologie
 
