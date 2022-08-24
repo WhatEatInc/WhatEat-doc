@@ -24,11 +24,11 @@ Pour la réalisation de ce projet, nous avons utilisé les technologies suivante
 - Serveur Heroku
 - Repository Github avec Kanban
 - Automatisation des tests avec Github Actions
-  -- Nous avions décider d'utilisé Github Actions, car notre repository est sur Gtihub
+  - Nous avions décider d'utilisé Github Actions, car notre repository est sur Gtihub
 - Jest pour les tests d'intégration
-  -- Nous nous sommes aussi renseigné Mocha et Chai.
+  - Nous nous sommes aussi renseigné Mocha et Chai.
 - Prettier pour le formattage du code
-  -- Nous avons prefére Prettier à un linter, car cela est plus facile à utiliser pour tous les membres du groupe.
+  - Nous avons prefére Prettier à un linter, car cela est plus facile à utiliser pour tous les membres du groupe.
 
 ## Méthodologie
 
