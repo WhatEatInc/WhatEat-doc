@@ -25,6 +25,7 @@ Pour la réalisation de ce projet, nous avons utilisé les technologies suivante
 - Repository Github avec Kanban
 - Automatisation Github Actions
 - Jest pour les tests unitaire
+- Prettier pour le formattage du code
 
 ## Méthodologie
 
