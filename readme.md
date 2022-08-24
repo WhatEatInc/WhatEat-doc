@@ -39,7 +39,7 @@ Pour la réalisation de ce projet, nous avons utilisé les technologies suivante
 - Prettier pour le formattage du code
   - Nous avons prefére Prettier à un ESlint, car cela est plus facile à utiliser pour tous les membres du groupe.
 - Spooncular API
-   - Nous avons chercher les différentes API de nourriture et Spooncular est resorti comme étant très complète, mais payante. Nous les avons contactés, car nous avons vu qu'il avit une offre pour les porjects académique.
+   - Nous avons chercher les différentes API de nourriture et Spooncular est resorti comme étant très complète, mais payante. Nous les avons contactés, car nous avons vu qu'il avit une offre pour les Hackathon ou les projects académique.
 
 ## Méthodologie
 
