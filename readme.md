@@ -115,3 +115,5 @@ Nous avons décidé d'utiliser Heroku afin de mettre en production notre applica
 Pour ce projet, nous avons décidé d'implémenter des tests unitaires vérifiant le bon fonctionnement de chaque composant ajouté au projet. L'objectif est donc de garantir qu'après chaque ajout de fonctionnalité, aucune autre ne fonctionne plus. Nous essaierons dans la mesure du possible d'aborder une approche TDD au fur cependant, nous ne sommes pas encore familier avec une telle approche.
 
 Ces tests seront rédigés avant ou en même temps que l'ajout d'une fonctionnalité et ce au moyen de l'outil Jest. La validation de tous les tests sera une condition requise afin que cette nouvelle fonctionnalité puisse être ajoutée au projet.
+
+##Mise en place d’un environnement de déploiement
