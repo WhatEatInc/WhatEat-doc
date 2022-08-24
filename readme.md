@@ -20,9 +20,11 @@ Pour la réalisation de ce projet, nous avons utilisé les technologies suivante
 - Node.js
 - React et React-Bootstrap
 - ExpresJS
-- Base de données MangoDB
+- Base de données MangoDB et Mangoose
 - Serveur Heroku
+   - Après avoir comparé avec plusieurs service d'hébergement de site web sont sommes parti sur Heroku, il est simple à utilisé et gratuit pour les projects non commercial.
 - Repository Github avec Kanban
+   - Nous avons déjà appris a utilisé ces outils dans nos précédent cours.
 - Automatisation des tests avec Github Actions
   - Nous avions décider d'utilisé Github Actions, car notre repository est sur Gtihub
 - Jest pour les tests d'intégration
