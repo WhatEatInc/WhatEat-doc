@@ -35,7 +35,7 @@ Pour la réalisation de ce projet, nous avons utilisé les technologies suivante
 - Automatisation des tests avec Github Actions
   - Nous avions décider d'utilisé Github Actions pour faire executer nos test d'intégrations automatiquement, car notre repository est sur Gtihub
 - Jest pour les tests d'intégration
-  - Nous nous sommes aussi renseigné Mocha et Chai.
+  - Nous nous sommes aussi renseigné Mocha et Chai. Nous avons choisi Jest, car plusieurs membres l'on déjà utilisé.
 - Prettier pour le formattage du code
   - Nous avons prefére Prettier à un ESlint, car cela est plus facile à utiliser pour tous les membres du groupe.
 - Spooncular API
