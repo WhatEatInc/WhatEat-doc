@@ -24,7 +24,9 @@ Pour la réalisation de ce projet, nous avons utilisé les technologies suivante
 - ExpresJS
 - Base de données MangoDB et Mangoose
 - Serveur Heroku
-   - Après avoir comparé avec plusieurs service d'hébergement de site web sont sommes parti sur Heroku, il est simple à utilisé et gratuit pour les projects non commercial.
+   - Après avoir comparé avec plusieurs service d'hébergement de site web sont sommes parti sur Heroku, il est simple à utilisé et gratuit pour les projects non commercial. Nous avons mis le back-end dessus.
+- Serveur Netlify
+   - Après avoir essayer de mettre sur Heroku nous avons décidé de hoster le front-end sur un serveur différent.
 - Repository Github avec Kanban
    - Nous avons déjà appris a utilisé ces outils dans nos précédent cours.
 - Automatisation des tests avec Github Actions
@@ -33,6 +35,8 @@ Pour la réalisation de ce projet, nous avons utilisé les technologies suivante
   - Nous nous sommes aussi renseigné Mocha et Chai.
 - Prettier pour le formattage du code
   - Nous avons prefére Prettier à un linter, car cela est plus facile à utiliser pour tous les membres du groupe.
+- Spooncular API
+   - API
 
 ## Méthodologie
 
