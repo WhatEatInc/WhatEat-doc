@@ -24,8 +24,8 @@ Pour la réalisation de ce projet, nous avons utilisé les technologies suivante
    - Plusieurs personnes de l'équipe avait déjà connaissance de React et nous décider d'utiliser React-Bootstrap pour la mise en page.
 - ExpresJS
    - ExpressJS est devenue DeFacto le framework backend en conjonction avec node.js
-- Base de données MongoDB et Mongoose permet de faciliter la communication entre node.js et MangoDB
-   - Dans l'équipe, il y a plusieurs personnes qui savent travailler avec MongoDB et Mongoose permet
+- Base de données MongoDB et Mongoose
+   - Dans l'équipe, il y a plusieurs personnes qui savent travailler avec MongoDB et Mongoose permet de faciliter la communication entre node.js et MangoDB 
 - Serveur Heroku
    - Après avoir comparé avec plusieurs service d'hébergement de site web sont sommes parti sur Heroku, il est simple à utilisé et gratuit pour les projects non commercial. Nous avons mis le back-end dessus.
 - Serveur Netlify
