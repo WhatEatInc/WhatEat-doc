@@ -34,7 +34,7 @@ Pour la réalisation de ce projet, nous avons utilisé les technologies suivante
 - Jest pour les tests d'intégration
   - Nous nous sommes aussi renseigné Mocha et Chai.
 - Prettier pour le formattage du code
-  - Nous avons prefére Prettier à un linter, car cela est plus facile à utiliser pour tous les membres du groupe.
+  - Nous avons prefére Prettier à un ESlint, car cela est plus facile à utiliser pour tous les membres du groupe.
 - Spooncular API
    - API
 
