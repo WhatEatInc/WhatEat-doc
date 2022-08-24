@@ -8,7 +8,7 @@ Notre application va vous aider pour tous vos problèmes de repas. Avec **WhatEa
 
 - Rui Filipe Lopes Gouveia (rui.lopesgouveia@heig-vd.ch) - ISCR - [TODO ROLE]
 - Thibault Seem (thibault.seem@heig-vd.ch) - ISCL - [TODO ROLE]
-- Joachim Bailat (joachim.bailat@heig-vd.ch) - ISCS [TODO ROLE]
+- Joachim Bailat (joachim.bailat@heig-vd.ch) - ISCS - [TODO ROLE]
 - Hadrien Louis (hadrien.louis@heig-vd.ch) - ISCL - Chef de projet
 - Damiano Mondaini (damiano.mondaini@heig-vd.ch) - ISCL -  [TODO ROLE]
 
@@ -23,9 +23,12 @@ Pour la réalisation de ce projet, nous avons utilisé les technologies suivante
 - Base de données MangoDB
 - Serveur Heroku
 - Repository Github avec Kanban
-- Automatisation Github Actions
-- Jest pour les tests unitaire
+- Automatisation des tests avec Github Actions
+  --Nous avions décider d'utilisé Github Actions, car notre repository est sur Gtihub
+- Jest pour les tests d'intégration
+  -- Nous nous sommes aussi renseigné Mocha et Chai.
 - Prettier pour le formattage du code
+  --Nous avons prefére Prettier à un linter, car cela est plus facile à utiliser pour tous les membres du groupe.
 
 ## Méthodologie
 
