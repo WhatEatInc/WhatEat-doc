@@ -28,8 +28,8 @@ Pour la réalisation de ce projet, nous avons utilisé les technologies suivante
    - Dans l'équipe, il y a plusieurs personnes qui savent travailler avec MongoDB et Mongoose permet de faciliter la communication entre node.js et MangoDB 
 - Serveur Heroku
    - Après avoir comparé avec plusieurs service d'hébergement de site web sont nous sommes parti sur Heroku, il est simple à utilisé et gratuit pour les projects non commercial. Nous avons mis le backend dessus.
-   - Nous avions commencé par mettre le frontend
-- Serveur Netlify
+   - Nous avions commencé par mettre le frontend, mais on c'est rendu compte que Heroku a besoin de buildpack pour faire fonctionner React dessus.
+ - Serveur Netlify
    - Après avoir essayer de mettre le frontend sur Heroku, nous avons décidé de hoster le frontend sur un serveur différent. Nous avons choisi de le mettre sur Netlify pour sa faciliter d'utilisation.
 - Repository Github avec Kanban
    - Nous avons déjà appris a utilisé ces outils dans nos précédent cours.
