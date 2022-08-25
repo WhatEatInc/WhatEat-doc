@@ -20,8 +20,8 @@ Pour la réalisation de ce projet, nous avons utilisé les technologies suivante
    - Nous avons décidé de faire une application web, car cela nous permet d'avoir l'application facilement accessible depuis les Smartphones sans devoir se battre avec le Play Store ou le App Store. Dans l'équipe les gens étaient plus à l'aise d'utiliser JS que PHP ou Java.
 - Node.js
    - Nous avons décider d'utiliser Node.js comme moteur pour le code JS. C'est le plus populaire du marché.
-- React et React-Bootstrap
-   - Plusieurs personnes de l'équipe avait déjà connaissance de React et nous décider d'utiliser React-Bootstrap pour la mise en page.
+- React
+   - Plusieurs personnes de l'équipe avait déjà connaissance de React.
 - ExpresJS
    - ExpressJS est devenue DeFacto le framework backend en conjonction avec node.js
 - Base de données MongoDB et Mongoose
