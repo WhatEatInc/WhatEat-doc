@@ -133,3 +133,5 @@ Ces tests seront rédigés avant ou en même temps que l'ajout d'une fonctionnal
 ## Mise en place des outils de développement
 
 ## Mise en place d’un environnement de déploiement
+
+## Mise en place d’un pipeline de livraison et de déploiement (CI/CD)
