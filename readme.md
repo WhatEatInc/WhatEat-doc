@@ -135,7 +135,7 @@ Ces tests seront rédigés avant ou en même temps que l'ajout d'une fonctionnal
 Nous avons décider d'utiliser VSCode comme IDE avec Node.js et NPM pour l'execution dut JS et la gestion des dépendances. Nous avons aussi installer git pour pouvoir envoyer le code vers Github.
 Sur Github nous utilisons Jest pour faire des tests intégration et nous utilisons Prettier pour unifier les styles de code.
 ## Mise en place d’un environnement de déploiement
-Nous avons 2 cloud provider. Nous utilisons Heroku pour le backend, nous avons donner accès au repository de notre et à chaque fois que le main change il prend le code et lance les tests, puis le déploie et run avec Npm. Sur Netlify pour le frontend, il fait la même chose.
+Nous avons 2 cloud provider. Nous utilisons Heroku pour le backend, nous avons donner accès au repository de notre et à chaque fois que la branche main change il prend le code et lance les tests, puis le déploie et run avec Npm. Sur Netlify pour le frontend, il fait la même chose.
 
 ## Mise en place d’un pipeline de livraison et de déploiement (CI/CD)
 Nous avons une pipeline pour chaque environnement de déploiement. A partir qu'on merge du code sur la branche main du repository Github, on lancer les tests d'intégration, puis le serveur de déploiement va venir chercher le code et le déployer sur l'environnement de déploiement.
