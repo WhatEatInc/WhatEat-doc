@@ -130,4 +130,6 @@ Pour ce projet, nous avons décidé d'implémenter des tests unitaires vérifian
 
 Ces tests seront rédigés avant ou en même temps que l'ajout d'une fonctionnalité et ce au moyen de l'outil Jest. La validation de tous les tests sera une condition requise afin que cette nouvelle fonctionnalité puisse être ajoutée au projet.
 
+## Mise en place des outils de développement
+
 ## Mise en place d’un environnement de déploiement
