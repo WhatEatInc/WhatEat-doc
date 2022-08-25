@@ -136,3 +136,4 @@ Sur Github nous utilisons Jest pour faire des tests intégration et nous utiliso
 ## Mise en place d’un environnement de déploiement
 
 ## Mise en place d’un pipeline de livraison et de déploiement (CI/CD)
+![pipeline CICD](https://user-images.githubusercontent.com/49392659/186608414-93b0c91c-8ab0-4c26-9f4e-47b3e5106924.png)
