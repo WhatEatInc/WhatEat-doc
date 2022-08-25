@@ -140,4 +140,4 @@ Nous avons 2 cloud provider. Nous utilisons Heroku pour le backend, nous avons d
 
 ## Mise en place d’un pipeline de livraison et de déploiement (CI/CD)
 Nous avons une pipeline pour chaque environnement de déploiement. A partir qu'on merge du code sur la branche main du repository Github, on lancer les tests d'intégration, puis le serveur de déploiement va venir chercher le code et le déployer sur l'environnement de déploiement.
-![pipeline CICD](https://user-images.githubusercontent.com/49392659/186608414-93b0c91c-8ab0-4c26-9f4e-47b3e5106924.png)
+![pipeline CICD](https://user-images.githubusercontent.com/49392659/186667137-c4e17547-baba-44c1-ac8a-c2612b5f289c.png)
