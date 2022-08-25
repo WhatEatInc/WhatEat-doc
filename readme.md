@@ -19,7 +19,7 @@ Pour la réalisation de ce projet, nous avons utilisé les technologies suivante
 - Javascript
    - Nous avons décidé de faire une application web, car cela nous permet d'avoir l'application facilement accessible depuis les Smartphones sans devoir se battre avec le Play Store ou le App Store. Dans l'équipe les gens étaient plus à l'aise d'utiliser JS que PHP ou Java.
 - Node.js
-   - Nous avons décider d'utiliser Node.js comme moteur pour le code JS. C'est le plus populaire du marché.
+   - Nous avons décider d'utiliser Node.js comme moteur pour le code JS.
 - React
    - Plusieurs personnes de l'équipe avait déjà connaissance de React.
 - ExpresJS
@@ -28,6 +28,7 @@ Pour la réalisation de ce projet, nous avons utilisé les technologies suivante
    - Dans l'équipe, il y a plusieurs personnes qui savent travailler avec MongoDB et Mongoose permet de faciliter la communication entre node.js et MangoDB 
 - Serveur Heroku
    - Après avoir comparé avec plusieurs service d'hébergement de site web sont nous sommes parti sur Heroku, il est simple à utilisé et gratuit pour les projects non commercial. Nous avons mis le backend dessus.
+   - Nous avions commencé par mettre le frontend
 - Serveur Netlify
    - Après avoir essayer de mettre le frontend sur Heroku, nous avons décidé de hoster le frontend sur un serveur différent. Nous avons choisi de le mettre sur Netlify pour sa faciliter d'utilisation.
 - Repository Github avec Kanban
