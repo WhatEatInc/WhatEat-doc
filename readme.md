@@ -138,5 +138,5 @@ Sur Github nous utilisons Jest pour faire des tests intégration et nous utiliso
 Nous avons 2 cloud provider. Nous utilisons Heroku pour le backend, nous avons donner accès au repository de notre et à chaque fois que le main change il prend le code et lance les tests, puis le déploie et run avec Npm. Sur Netlify pour le frontend, il fait la même chose.
 
 ## Mise en place d’un pipeline de livraison et de déploiement (CI/CD)
-Nous avons une pipeline pour chaque environnement de déploiement. A partir qu'on merge du code sur la branche main du repository Github, on lancer
+Nous avons une pipeline pour chaque environnement de déploiement. A partir qu'on merge du code sur la branche main du repository Github, on lancer les tests d'intégration, puis le serveur de déploiement va venir chercher le code et le déployer sur l'environnement de déploiement.
 ![pipeline CICD](https://user-images.githubusercontent.com/49392659/186608414-93b0c91c-8ab0-4c26-9f4e-47b3e5106924.png)
