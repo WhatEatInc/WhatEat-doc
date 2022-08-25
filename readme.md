@@ -131,8 +131,7 @@ Pour ce projet, nous avons décidé d'implémenter des tests unitaires vérifian
 Ces tests seront rédigés avant ou en même temps que l'ajout d'une fonctionnalité et ce au moyen de l'outil Jest. La validation de tous les tests sera une condition requise afin que cette nouvelle fonctionnalité puisse être ajoutée au projet.
 
 ## Mise en place des outils de développement
-Nous avons décider d'utiliser VSCode comme environemment de développement et nous utilisons Prettier pour définir le style de code. Les dépendances du project sont gérer par NPM.
-
+Nous avons décider d'utiliser VSCode comme IDE avec Node.js et NPM pour l'execution et la gestion des dépendances. Nous avons aussi installer git pour pouvoir envoyer le code vers Github.
 ## Mise en place d’un environnement de déploiement
 
 ## Mise en place d’un pipeline de livraison et de déploiement (CI/CD)
