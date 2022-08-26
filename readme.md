@@ -4,43 +4,63 @@ Dans le cadre du cours PDG de la HEIG-VD, nous devons réaliser un travail de gr
 
 Notre application va vous aider pour tous vos problèmes de repas. Avec **WhatEat** vous obtenez tous les jours des repas personnalisés selon vos préférences.
 
+# Table des matières
+
+- [Groupe de travail](#groupe-de-travail)
+- [Technologies utilisées](#technologies-utilisées)
+- [Méthodologie](#méthodologie)
+- [Gestion du projet](#gestion-du-projet)
+   - [Client](#client)
+   - [User stories](#user-stories)
+   - [Tableau Kanban](#tableau-kanban)
+   - [Sprints](#sprints)
+- [Méthodes de développement](#méthodes-de-développement)
+   - [Organisation des branches](#organisation-des-branches)
+   - [Gestion des issues](#gestion-des-issues)
+   - [Messages de commit](#messages-de-commit)
+   - [Création d'une nouvelle version du logiciel](#création-dune-nouvelle-version-du-logiciel)
+   - [Tests](#tests)
+- [Mise en place des outils de développement](#mise-en-place-des-outils-de-développement)
+- [Mise en place d’un environnement de déploiement](#mise-en-place-dun-environnement-de-déploiement)
+- [Mise en place d’un pipeline de livraison et de déploiement (CI/CD)](#mise-en-place-dun-pipeline-de-livraison-et-de-déploiement-cicd)
+
 ## Groupe de travail
 
-- Rui Filipe Lopes Gouveia (rui.lopesgouveia@heig-vd.ch) - ISCR - [TODO ROLE]
-- Thibault Seem (thibault.seem@heig-vd.ch) - ISCL - [TODO ROLE]
-- Joachim Bailat (joachim.bailat@heig-vd.ch) - ISCS - [TODO ROLE]
+- Rui Filipe Lopes Gouveia (rui.lopesgouveia@heig-vd.ch) - ISCR - Dev frontend
+- Thibault Seem (thibault.seem@heig-vd.ch) - ISCL - Dev backend
+- Joachim Bailat (joachim.bailat@heig-vd.ch) - ISCS - Dev backend
 - Hadrien Louis (hadrien.louis@heig-vd.ch) - ISCL - Chef de projet
-- Damiano Mondaini (damiano.mondaini@heig-vd.ch) - ISCL -  [TODO ROLE]
+- Damiano Mondaini (damiano.mondaini@heig-vd.ch) - ISCL -  Dev frontend
 
 ## Technologies utilisées
 
-Pour la réalisation de ce projet, nous avons utilisé les technologies suivantes
+Pour la réalisation de ce projet, nous avons utilisé les technologies suivantes :
 
 - Javascript
-   - Nous avons décidé de faire une application web, car cela nous permet d'avoir l'application facilement accessible depuis les Smartphones sans devoir se battre avec le Play Store ou le App Store. Dans l'équipe les gens étaient plus à l'aise avec JS que PHP ou Java.
+   - Nous avons décidé de faire une application web, car cela nous permet d'avoir l'application facilement accessible depuis les Smartphones sans devoir se battre avec le Play Store ou l'App Store. Dans l'équipe certains membres étaient plus à l'aise avec JS que PHP ou Java ce qui explique notre choix.
 - Node.js
-   - Nous avons décider d'utiliser Node.js comme moteur pour le code JS.
+   - Nous avons décidé d'utiliser Node.js comme moteur pour le code JS.
 - React
-   - Plusieurs personnes de l'équipe avait déjà connaissance de React.
-- ExpresJS
-   - ExpressJS est devenue DeFacto le framework backend en conjonction avec node.js
+   - Plusieurs membres de l'équipe avaient déjà connaissance de React plutôt que VueJS. C'est donc pour cette raison que nous avons fait ce choix.
+- ExpressJS
+   - ExpressJS est devenu de facto le framework backend à utiliser en conjonction avec Node.js pour la création d'une API.
 - Base de données MongoDB et Mongoose
-   - Dans l'équipe, il y a plusieurs personnes qui savent travailler avec MongoDB. Mongoose permet de faciliter la communication entre node.js et MangoDB 
+   - Nous avons fait le choix d'utiliser une base de données MongoDB. Nous avons fait ce choix car plusieurs membres de l'équipe ont déjà travaillé avec cet outil, de plus, Mongo Atlas permet d'héberger gratuitement des DB dans le Cloud. Nous utilisons également Mongoose afin de faciliter la communication entre Node.js et MangoDB. 
 - Serveur Heroku
-   - Après avoir comparé avec plusieurs service d'hébergement de site web sont nous sommes parti sur Heroku, il est simple à utilisé et gratuit pour les projects non commercial. Nous avons mis le backend dessus.
-   - Nous avions commencé par mettre le frontend, mais on c'est rendu compte que Heroku a besoin de buildpack pour faire fonctionner React dessus. Après plusieurs tentative nous avons décidé de le mettre ailleurs.
+   - Après avoir comparé plusieurs services d'hébergement de site web, nous avons fait le choix d'utiliser Heroku. Cet outil est simple à utiliser et gratuit pour les projets non commerciaux. Nous avons utilisé cet outil pour l'hébergement du backend.
+   - Nous avions commencé par y héberger le frontend, mais nous nous sommes rendus compte que Heroku avait besoin de "buildpack" pour faire fonctionner React dessus. Après plusieurs tentatives nous avons décidé de l'héberger chez Netlify.
  - Serveur Netlify
-   - Après avoir essayer de mettre le frontend sur Heroku, nous avons décidé de hoster le frontend sur un serveur différent. Nous avons choisi de le mettre sur Netlify pour sa faciliter d'utilisation.
+   - Après avoir essayé de déployer le frontend sur Heroku, nous avons rencontré divers problèmes ce qui nous a poussé à déployer le frontend sur un serveur différent. Nous avons choisi de le mettre sur Netlify ce qui nous permet de faciliter le déploiement.
 - Repository Github avec Kanban
-   - Nous avons déjà appris a utilisé ces outils dans nos précédent cours.
+   - Nous avons décidé d'utiliser les outils de Github pour la gestion des tâches et ce afin d'appliquer la méthodologie agile.
 - Automatisation des tests avec Github Actions
-  - Nous avions décider d'utilisé Github Actions pour faire executer nos test d'intégrations automatiquement, car notre repository est sur Gtihub
+  - Nous avons décidé d'utiliser Github Actions pour executer nos tests d'intégration automatiquement
 - Jest pour les tests d'intégration
-  - Nous nous sommes aussi renseigné Mocha et Chai. Nous avons choisi Jest, car plusieurs membres l'on déjà utilisé.
+  - Nous nous sommes aussi renseignés sur Mocha et Chai. Nous avons choisi Jest car plusieurs membres l'on déjà utilisé auparavant.
 - Prettier pour le formattage du code
-  - Nous avons prefére Prettier à un ESlint, car cela est plus facile à utiliser pour tous les membres du groupe.
+  - Nous avons préféré Prettier à ESlint car cela est plus facile à utiliser selon nous car nous ne sommes pas encore très à l'aise avec ce type d'outil.
 - Spooncular API
-   - Nous avons chercher les différentes API de nourriture et Spooncular est resorti comme étant très complète, mais payante. Nous les avons contactés, car nous avons vu qu'il avit une offre pour les Hackathon ou les projects académique.
+   - Nous avons cherché les différentes API de nourriture à disposition et Spooncular est resortie comme étant très complète, mais payante. Nous les avons contactés car nous avons vu qu'il y avait une offre pour les Hackathon ou les projects académique.
 
 ## Méthodologie
 
