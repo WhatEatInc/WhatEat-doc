@@ -30,17 +30,17 @@ Pour la réalisation de ce projet, nous avons utilisé les technologies suivante
    - Après avoir comparé plusieurs service d'hébergement de site web nous sommes parti sur Heroku, il est simple à utiliser et gratuit pour les projets non commercial. Nous avons mis le backend dessus.
    - Nous avions commencé par mettre le frontend dessus également, mais nous nous sommes rendu compte que Heroku a besoin de buildpack pour faire fonctionner React dessus. Après plusieurs tentative nous avons décidé de le mettre ailleurs.
  - Serveur Netlify
-   - Après avoir essayé de mettre le frontend sur Heroku, nous avons décidé de hoster le frontend sur un serveur différent. Nous avons choisi de le mettre sur Netlify pour sa faciliter d'utilisation.
+   - Après avoir essayé de mettre le frontend sur Heroku, nous avons décidé de hoster le frontend sur un serveur différent. Nous avons choisi de le mettre sur Netlify pour sa facilité d'utilisation.
 - Repository Github avec Kanban
-   - Nous avons déjà appris a utilisé ces outils dans nos précédent cours.
+   - Nous avons déjà appris a utiliser ces outils dans nos précédents cours.
 - Automatisation des tests avec Github Actions
-  - Nous avions décider d'utilisé Github Actions pour faire executer nos test d'intégrations automatiquement, car notre repository est sur Gtihub
+  - Nous avions décidé d'utiliser Github Actions pour faire executer nos test d'intégrations automatiquement, car notre repository est sur Gtihub
 - Jest pour les tests d'intégration
-  - Nous nous sommes aussi renseigné Mocha et Chai. Nous avons choisi Jest, car plusieurs membres l'on déjà utilisé.
+  - Nous nous sommes aussi renseigné sur Mocha et Chai. Nous avons choisi Jest, car plusieurs membres l'on déjà utilisé.
 - Prettier pour le formattage du code
   - Nous avons prefére Prettier à un ESlint, car cela est plus facile à utiliser pour tous les membres du groupe.
 - Spooncular API
-   - Nous avons chercher les différentes API de nourriture et Spooncular est resorti comme étant très complète, mais payante. Nous les avons contactés, car nous avons vu qu'il avit une offre pour les Hackathon ou les projects académique.
+   - Nous avons cherché les différentes API de recettes et Spooncular est resorti comme étant très complète, mais payante. Nous les avons contactés, car nous avons vu qu'il avit une offre pour les Hackathon ou les projects académique.
 
 ## Méthodologie
 
