@@ -156,7 +156,7 @@ Nous avons décider d'utiliser VSCode comme IDE avec Node.js et NPM pour l'execu
 
 Sur Github nous utilisons Jest pour faire des tests intégration et nous utilisons Prettier pour unifier les styles de code.
 ## Mise en place d’un environnement de déploiement
-Nous avons 3 cloud provider. Nous utilisons Heroku pour le backend, nous avons donner accès au repository et à chaque fois que la branche main change il prend le code et lance les tests, puis le déploie et run avec Npm. Sur Netlify pour le frontend, il fait la même chose. La Base de donnée est hébergé chez MangoDB Altas. Il y a 2 DB, une pour les tests et une pour la production.
+Nous avons 3 cloud provider. Nous utilisons Heroku pour le backend, nous avons donner accès au repository et à chaque fois que la branche main change il prend le code et lance les tests, puis le déploie et run avec Npm. Sur Netlify pour le frontend, il fait la même chose. La Base de donnée est hébergé chez MangoDB Altas. Il y a 2 DB, une pour le développement et une pour la production.
 ![Infrastructure](https://user-images.githubusercontent.com/49392659/186679149-db00f90a-306c-4112-94e1-f724e93a96c5.png)
 
 ## Mise en place d’un pipeline de livraison et de déploiement (CI/CD)
