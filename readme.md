@@ -122,7 +122,7 @@ Nous avons choisi d'utiliser l'organisation de branches suivantes pour notre pro
 ### Gestion des issues
 
 - Un template d'issue a été créé afin que toutes respectent le même format et ce afin de faciliter la compréhension et la lisibilité. 
-- Une issue doit contenir une brève description, la liste des tâches à réaliser, la durée ainsi que les éventuelles dépendances à d'autres tâches requises
+- Une issue doit contenir une brève description, la liste des tâches à réaliser, la durée ainsi que les éventuelles dépendances à d'autres tâches requises.
 - Lorsqu'un membre de l'équipe commence à travailler sur une tâche, il s'associe la tâche et crée une nouvelle `feature branch` pour y écrire le code. Il doit également faire une estimation du temps nécessaire (Optimiste, Pessimiste, Attendu)
 - Une fois la feature terminée, il faut créer une PR depuis Github et assigner au moins une personne afin de review le code. Elle doit être validée par au moins un autre membre du groupe avant d'être merge par son créateur ou quelqu'un d'autre.
 - Une fois la PR validée, il est alors possible de merge la feature branche avec `develop`, supprimer la branche et fermer l'issue.
@@ -143,22 +143,30 @@ Nous utiliserons l'anglais comme langue principale pour les messages de commit. 
 
 Comme cité précédemment, les `feature branch` sont merge avec la branche `develop` dès que la PR est validée. A la fin d'un sprint, une personne est en charge de merge `develop` avec la branche `main` afin qu'une nouvelle version du logiciel soit disponible. 
 
-Nous avons décidé d'utiliser Heroku afin de mettre en production notre application. Dès qu'un commit est fait sur la branche `main` les Github Actions seront exécutées et Heroku va automatiquement récupérer les modifications pour les mettre en ligne.
-
 ### Tests
 
-Pour ce projet, nous avons décidé d'implémenter des tests unitaires vérifiant le bon fonctionnement de chaque composant ajouté au projet. L'objectif est donc de garantir qu'après chaque ajout de fonctionnalité, aucune autre ne fonctionne plus. Nous essaierons dans la mesure du possible d'aborder une approche TDD au fur et à mesure, cependant, nous ne sommes pas encore familier avec une telle approche.
+Pour ce projet, nous avons décidé d'implémenter des tests unitaires pour le backend afin de vérifier le bon fonctionnement de chaque composant ajouté au projet. L'objectif est donc de garantir qu'après chaque ajout de fonctionnalité, aucune autre ne fonctionne plus. Nous essaierons dans la mesure du possible d'aborder une approche TDD au fur et à mesure, cependant, nous ne sommes pas encore familier avec une telle approche.
 
 Ces tests seront rédigés avant ou en même temps que l'ajout d'une fonctionnalité et ce au moyen de l'outil Jest. La validation de tous les tests sera une condition requise afin que cette nouvelle fonctionnalité puisse être ajoutée au projet.
 
 ## Mise en place des outils de développement
-Nous avons décider d'utiliser VSCode comme IDE avec Node.js et NPM pour l'execution du JS et la gestion des dépendances. Nous avons aussi installer git pour pouvoir envoyer le code vers Github. Les tests sont effectué avec Jest qui crée une DB uniquement pour les tests.
 
-Sur Github nous utilisons Jest pour faire des tests intégration et nous utilisons Prettier pour unifier les styles de code.
+Nous avons décidé d'utiliser VSCode comme IDE avec Node.js et npm pour l'execution du JS et la gestion des dépendances. Nous avons aussi installé git pour pouvoir envoyer le code vers Github. 
+
+Lors de la phase de développement, nous faisons tourner le backend et le frontend en local sur des ports différents. Des fichiers `.env` ont été créés pour les deux projets et ce afin de préciser les éventuelles variables globales (URL de la DB, port, mot de passe, etc..)
+
+Avec une telle architecture, il est tout à fait possible de faire des modifications sur le frontend sans endommager le backend et vice-versa. La backend de l'API a également été conçu afin de prendre en charge des versions d'API `/v1/users` et `/v2/users`. Cette solution nous permet aussi de modifier certains endpoints du backend sans corrompre les éventuels appels à des anciens endpoints.
+
+En ce qui concerne la base de données, nous avons fait le choix de créer deux base de données. Une de prod qui sera utilisée par l'application en ligne (Celle utilisée par nos users) puis une base de données de dev que nous utilisons lorsque nous faisons tourner le projet en local sur nos machines.
+
+Pour ce qui est des tests unitaires, ils sont effectués avec Jest. Ils peuvent être lancés en local ce qui va créer une DB locale dans la RAM uniquement pour les tests. Nous avons fait ce choix afin d'éviter des éventuels problèmes si plusieurs dev lancent les tests en même temps.
+
 ## Mise en place d’un environnement de déploiement
+
 Nous avons 3 cloud provider. Nous utilisons Heroku pour le backend, nous avons donner accès au repository et à chaque fois que la branche main change il prend le code et lance les tests, puis le déploie et run avec Npm. Sur Netlify pour le frontend, il fait la même chose. La Base de donnée est hébergé chez MangoDB Altas. Il y a 2 DB, une pour les tests et une pour la production.
 ![Infrastructure](https://user-images.githubusercontent.com/49392659/186679149-db00f90a-306c-4112-94e1-f724e93a96c5.png)
 
 ## Mise en place d’un pipeline de livraison et de déploiement (CI/CD)
+
 Nous avons une pipeline pour chaque environnement de déploiement. A partir qu'on merge du code sur la branche main du repository Github, on lancer les tests d'intégration, puis le serveur de déploiement va venir chercher le code et le déployer sur l'environnement de déploiement.
 ![pipeline CICD](https://user-images.githubusercontent.com/49392659/186667137-c4e17547-baba-44c1-ac8a-c2612b5f289c.png)
