@@ -19,7 +19,7 @@ Pour la réalisation de ce projet, nous avons utilisé les technologies suivante
 - Javascript
    - Nous avons décidé de faire une application web, car cela nous permet d'avoir l'application facilement accessible depuis les Smartphones sans devoir se battre avec le Play Store ou le App Store. Dans l'équipe les gens étaient plus à l'aise avec JS que PHP ou Java.
 - Node.js
-   - Nous avons décider d'utiliser Node.js comme moteur pour le code JS.
+   - Nous avons décidé d'utiliser Node.js comme moteur pour le code JS du back.
 - React
    - Plusieurs personnes de l'équipe avait déjà connaissance de React.
 - ExpresJS
