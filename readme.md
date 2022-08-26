@@ -165,11 +165,12 @@ Pour ce qui est des tests unitaires, ils sont effectués avec Jest. Ils peuvent 
 ## Mise en place d’un environnement de déploiement
 
 Nous avons 3 cloud provider :
-* Heroku : Il est utilisé pour host le backend de l'application gratuitement, il watch le repo whateat-backend, dès lors qu'une modification est détéctée sur le repo, il récupère les changements, rebuild de son côté et "serve" le tout.
 
-* Netlify : Il est utilisé pour host le front gratuitement, un bot netlify est installé sur notre repo il lance les tests, et de la même manière qu'Heroku, Netlify watch le repo whateat-front et à chaque changement il récupère les données et les "serve".
+- Heroku : Il est utilisé pour host le backend de l'application gratuitement, il watch le repo whateat-backend, dès lors qu'une modification est détéctée sur le repo, il récupère les changements, rebuild de son côté et "serve" le tout.
 
-* MongoDB Atlas : Il est utilisé pour host nos bases de données gratuitement (production et développement)
+- Netlify : Il est utilisé pour host le front gratuitement, un bot netlify est installé sur notre repo il lance les tests, et de la même manière qu'Heroku, Netlify watch le repo whateat-front et à chaque changement il récupère les données et les "serve".
+
+- MongoDB Atlas : Il est utilisé pour host nos bases de données gratuitement (production et développement)
 \
 \
 
@@ -182,10 +183,9 @@ Nous avons 3 cloud provider :
 Nous avons mis en place 2 pipelines, un pour le frontend, l'autre pour le backend.
 
 Les deux pipelines ont la même logique de base à savoir :
+
 1. Le développeur merge sa feature branch sur la branche de dev
-2. Toutes les fin de sprints la branche dev est merge sur la branch main :
-   * Les CI/CD Github sont executées à ce moment
-   * Un développeur doit review et valider le merge
+2. Les CI/CD github sont executées selon la branche (cf. shémas)
 3. Lorsque la branch main a été changé les clouds providers (Netlify, Heroku) viennent prendre les derniers changements et s'occupe de serve ce contenu.
 \
 \
