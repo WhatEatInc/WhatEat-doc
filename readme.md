@@ -183,5 +183,4 @@ Les deux pipelines ont la même logique de base à savoir :
    * Un développeur doit review et valider le merge
 3. Lorsque la branch main a été changé les clouds providers (Netlify, Heroku) viennent prendre les derniers changements et s'occupe de serve ce contenu.
 
-![Pipeline drawio](https://user-images.githubusercontent.com/49392659/186887699-760bf3e8-ae5c-41cf-971f-14e774afa910.png)
-
+![Pipeline drawio](https://user-images.githubusercontent.com/49392659/186888512-bd6b61aa-47b6-438c-a1e0-caa91cd6007f.png)
