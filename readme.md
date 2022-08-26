@@ -60,7 +60,7 @@ Pour la réalisation de ce projet, nous avons utilisé les technologies suivante
 - Prettier pour le formattage du code
   - Nous avons préféré Prettier à ESlint car cela est plus facile à utiliser selon nous car nous ne sommes pas encore très à l'aise avec ce type d'outil.
 - Spooncular API
-   - Nous avons cherché les différentes API de nourriture à disposition et Spooncular est resortie comme étant très complète, mais payante. Nous les avons contactés car nous avons vu qu'il y avait une offre pour les Hackathon ou les projects académique.
+   - Nous avons cherché les différentes API de recettes à disposition et Spooncular est resortie comme étant très complète, mais payante. Nous les avons contactés car nous avons vu qu'il y avait une offre pour les Hackathon ou les projects académique.
 
 ## Méthodologie
 
@@ -147,7 +147,7 @@ Nous avons décidé d'utiliser Heroku afin de mettre en production notre applica
 
 ### Tests
 
-Pour ce projet, nous avons décidé d'implémenter des tests unitaires vérifiant le bon fonctionnement de chaque composant ajouté au projet. L'objectif est donc de garantir qu'après chaque ajout de fonctionnalité, aucune autre ne fonctionne plus. Nous essaierons dans la mesure du possible d'aborder une approche TDD au fur cependant, nous ne sommes pas encore familier avec une telle approche.
+Pour ce projet, nous avons décidé d'implémenter des tests unitaires vérifiant le bon fonctionnement de chaque composant ajouté au projet. L'objectif est donc de garantir qu'après chaque ajout de fonctionnalité, aucune autre ne fonctionne plus. Nous essaierons dans la mesure du possible d'aborder une approche TDD au fur et à mesure, cependant, nous ne sommes pas encore familier avec une telle approche.
 
 Ces tests seront rédigés avant ou en même temps que l'ajout d'une fonctionnalité et ce au moyen de l'outil Jest. La validation de tous les tests sera une condition requise afin que cette nouvelle fonctionnalité puisse être ajoutée au projet.
 
@@ -156,7 +156,7 @@ Nous avons décider d'utiliser VSCode comme IDE avec Node.js et NPM pour l'execu
 
 Sur Github nous utilisons Jest pour faire des tests intégration et nous utilisons Prettier pour unifier les styles de code.
 ## Mise en place d’un environnement de déploiement
-Nous avons 3 cloud provider. Nous utilisons Heroku pour le backend, nous avons donner accès au repository et à chaque fois que la branche main change il prend le code et lance les tests, puis le déploie et run avec Npm. Sur Netlify pour le frontend, il fait la même chose. La Base de donnée est hébergé chez MangoDB Altas.
+Nous avons 3 cloud provider. Nous utilisons Heroku pour le backend, nous avons donner accès au repository et à chaque fois que la branche main change il prend le code et lance les tests, puis le déploie et run avec Npm. Sur Netlify pour le frontend, il fait la même chose. La Base de donnée est hébergé chez MangoDB Altas. Il y a 2 DB, une pour les tests et une pour la production.
 ![Infrastructure](https://user-images.githubusercontent.com/49392659/186679149-db00f90a-306c-4112-94e1-f724e93a96c5.png)
 
 ## Mise en place d’un pipeline de livraison et de déploiement (CI/CD)
