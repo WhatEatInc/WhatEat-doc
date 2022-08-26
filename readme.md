@@ -170,10 +170,17 @@ Nous avons 3 cloud provider :
 
 * MongoDB Atlas : Il est utilisé pour host nos bases de données gratuitement (production et développement)
 
-Nous utilisons Heroku pour le backend, nous avons donner accès au repository et à chaque fois que la branche main change il prend le code, le build, puis le serve. Sur Netlify pour le frontend, il fait la même chose. La Base de donnée est hébergé chez MangoDB Altas. Il y a 2 DB, une pour les tests et une pour la production.
 ![Infrastructure](https://user-images.githubusercontent.com/49392659/186679149-db00f90a-306c-4112-94e1-f724e93a96c5.png)
 
 ## Mise en place d’un pipeline de livraison et de déploiement (CI/CD)
 
-Nous avons une pipeline pour chaque environnement de déploiement. A partir qu'on merge du code sur la branche main du repository Github, on lancer les tests d'intégration, puis le serveur de déploiement va venir chercher le code et le déployer sur l'environnement de déploiement.
-![pipeline CICD](https://user-images.githubusercontent.com/49392659/186667137-c4e17547-baba-44c1-ac8a-c2612b5f289c.png)
+Nous avons mis en place 2 pipelines, un pour le frontend, l'autre pour le backend.
+
+Les deux pipelines ont la même logique de base à savoir :
+1. Le développeur merge sa feature branch sur la branche de dev
+2. Toutes les fin de sprints la branche dev est merge sur la branch main :
+   * Les CI/CD Github sont executées à ce moment
+   * Un développeur doit review et valider le merge
+3. Lorsque la branch main a été changé les clouds providers (Netlify, Heroku) viennent prendre les derniers changements et s'occupe de serve ce contenu.
+
+![pipeline CICD](https://ibb.co/yqLJZyw)
