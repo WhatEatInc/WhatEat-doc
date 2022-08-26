@@ -19,7 +19,7 @@ Pour la réalisation de ce projet, nous avons utilisé les technologies suivante
 - Javascript
    - Nous avons décidé de faire une application web, car cela nous permet d'avoir l'application facilement accessible depuis les Smartphones sans devoir se battre avec le Play Store ou le App Store. Dans l'équipe les gens étaient plus à l'aise avec JS que PHP ou Java.
 - Node.js
-   - Nous avons décidé d'utiliser Node.js comme moteur pour le code JS du back.
+   - Nous avons décider d'utiliser Node.js comme moteur pour le code JS.
 - React
    - Plusieurs personnes de l'équipe avait déjà connaissance de React.
 - ExpresJS
@@ -136,7 +136,7 @@ Nous avons décider d'utiliser VSCode comme IDE avec Node.js et NPM pour l'execu
 
 Sur Github nous utilisons Jest pour faire des tests intégration et nous utilisons Prettier pour unifier les styles de code.
 ## Mise en place d’un environnement de déploiement
-Nous avons 3 cloud provider. Nous utilisons Heroku pour le backend, nous avons donner accès au repository et à chaque fois que la branche main change il prend le code et lance les tests, puis le déploie et run avec Npm. Sur Netlify pour le frontend, il fait la même chose. La Base de donnée est hébergé chez MangoDB Altas.
+Nous avons 3 cloud provider. Nous utilisons Heroku pour le backend, nous avons donner accès au repository et à chaque fois que la branche main change il prend le code et lance les tests, puis le déploie et run avec Npm. Sur Netlify pour le frontend, il fait la même chose. La Base de donnée est hébergé chez MangoDB Altas. Il y a 2 DB, une pour les tests et une pour la production.
 ![Infrastructure](https://user-images.githubusercontent.com/49392659/186679149-db00f90a-306c-4112-94e1-f724e93a96c5.png)
 
 ## Mise en place d’un pipeline de livraison et de déploiement (CI/CD)
