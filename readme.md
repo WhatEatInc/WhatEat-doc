@@ -1,36 +1,35 @@
+---
+title: "WhatEat - Rapport de projet"
+date: "26.08.2022"
+lang: "fr"
+subtitle: "Version 0.1"
+titlepage: true
+titlepage-rule-height: 2
+titlepage-rule-color: "27ae60"
+titlepage-text-color: "000000"
+logo: "logo.pdf"
+logo-width: 60mm
+toc: true
+toc-own-page: true
+colorlinks: blue
+...
+
+\renewcommand{\labelitemi}{$\bullet$}
+\renewcommand{\labelitemii}{$\circ$}
+
 # Cours PDG - Rapport de projet
 
 Dans le cadre du cours PDG de la HEIG-VD, nous devons réaliser un travail de groupe qui consiste à développer une application web.
 
 Notre application va vous aider pour tous vos problèmes de repas. Avec **WhatEat** vous obtenez tous les jours des repas personnalisés selon vos préférences.
 
-# Table des matières
-
-- [Groupe de travail](#groupe-de-travail)
-- [Technologies utilisées](#technologies-utilisées)
-- [Méthodologie](#méthodologie)
-- [Gestion du projet](#gestion-du-projet)
-   - [Client](#client)
-   - [User stories](#user-stories)
-   - [Tableau Kanban](#tableau-kanban)
-   - [Sprints](#sprints)
-- [Méthodes de développement](#méthodes-de-développement)
-   - [Organisation des branches](#organisation-des-branches)
-   - [Gestion des issues](#gestion-des-issues)
-   - [Messages de commit](#messages-de-commit)
-   - [Création d'une nouvelle version du logiciel](#création-dune-nouvelle-version-du-logiciel)
-   - [Tests](#tests)
-- [Mise en place des outils de développement](#mise-en-place-des-outils-de-développement)
-- [Mise en place d’un environnement de déploiement](#mise-en-place-dun-environnement-de-déploiement)
-- [Mise en place d’un pipeline de livraison et de déploiement (CI/CD)](#mise-en-place-dun-pipeline-de-livraison-et-de-déploiement-cicd)
-
 ## Groupe de travail
 
-- Rui Filipe Lopes Gouveia (rui.lopesgouveia@heig-vd.ch) - ISCR - Dev frontend
-- Thibault Seem (thibault.seem@heig-vd.ch) - ISCL - Dev backend
-- Joachim Bailat (joachim.bailat@heig-vd.ch) - ISCS - Dev backend
-- Hadrien Louis (hadrien.louis@heig-vd.ch) - ISCL - Chef de projet
-- Damiano Mondaini (damiano.mondaini@heig-vd.ch) - ISCL -  Dev frontend
+- Rui Filipe Lopes Gouveia (<rui.lopesgouveia@heig-vd.ch>) - ISCR - Dev frontend
+- Thibault Seem (<thibault.seem@heig-vd.ch>) - ISCL - Dev backend
+- Joachim Bailat (<joachim.bailat@heig-vd.ch>) - ISCS - Dev backend
+- Hadrien Louis (<hadrien.louis@heig-vd.ch>) - ISCL - Chef de projet
+- Damiano Mondaini (<damiano.mondaini@heig-vd.ch>) - ISCL -  Dev frontend
 
 ## Technologies utilisées
 
