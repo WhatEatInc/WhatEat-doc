@@ -183,4 +183,4 @@ Les deux pipelines ont la même logique de base à savoir :
    * Un développeur doit review et valider le merge
 3. Lorsque la branch main a été changé les clouds providers (Netlify, Heroku) viennent prendre les derniers changements et s'occupe de serve ce contenu.
 
-![pipeline CICD](https://ibb.co/yqLJZyw)
+![pipeline CICD](https://ibb.co/yqLJZyw"><img src="https://i.ibb.co/7K7FZWw/Pipeline-drawio.png)
