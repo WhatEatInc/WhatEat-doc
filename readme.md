@@ -8,7 +8,7 @@ titlepage-rule-height: 2
 titlepage-rule-color: "27ae60"
 titlepage-text-color: "000000"
 logo: "logo.pdf"
-logo-width: 60mm
+logo-width: 40mm
 toc: true
 toc-own-page: true
 colorlinks: blue
@@ -185,7 +185,7 @@ Nous avons mis en place 2 pipelines, un pour le frontend, l'autre pour le backen
 Les deux pipelines ont la même logique de base à savoir :
 
 1. Le développeur merge sa feature branch sur la branche de dev
-2. Les CI/CD github sont executées selon la branche (cf. shémas)
+2. Les CI/CD github sont executées selon la branche (cf. Figure 2)
 3. Lorsque la branch main a été changé les clouds providers (Netlify, Heroku) viennent prendre les derniers changements et s'occupe de serve ce contenu.
 \
 \
