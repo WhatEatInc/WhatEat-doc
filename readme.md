@@ -160,6 +160,8 @@ En ce qui concerne la base de données, nous avons fait le choix de créer deux 
 
 Pour ce qui est des tests unitaires, ils sont effectués avec Jest. Ils peuvent être lancés en local ce qui va créer une DB locale dans la RAM uniquement pour les tests. Nous avons fait ce choix afin d'éviter des éventuels problèmes si plusieurs dev lancent les tests en même temps.
 
+\pagebreak
+
 ## Mise en place d’un environnement de déploiement
 
 Nous avons 3 cloud provider :
@@ -168,8 +170,12 @@ Nous avons 3 cloud provider :
 * Netlify : Il est utilisé pour host le front gratuitement, un bot netlify est installé sur notre repo il lance les tests, et de la même manière qu'Heroku, Netlify watch le repo whateat-front et à chaque changement il récupère les données et les "serve".
 
 * MongoDB Atlas : Il est utilisé pour host nos bases de données gratuitement (production et développement)
+\
+\
 
 ![Infrastructure](https://user-images.githubusercontent.com/49392659/186679149-db00f90a-306c-4112-94e1-f724e93a96c5.png)
+
+\pagebreak
 
 ## Mise en place d’un pipeline de livraison et de déploiement (CI/CD)
 
@@ -181,5 +187,7 @@ Les deux pipelines ont la même logique de base à savoir :
    * Les CI/CD Github sont executées à ce moment
    * Un développeur doit review et valider le merge
 3. Lorsque la branch main a été changé les clouds providers (Netlify, Heroku) viennent prendre les derniers changements et s'occupe de serve ce contenu.
+\
+\
 
 ![Pipeline drawio](https://user-images.githubusercontent.com/49392659/186888512-bd6b61aa-47b6-438c-a1e0-caa91cd6007f.png)
