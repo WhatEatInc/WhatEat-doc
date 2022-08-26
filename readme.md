@@ -162,10 +162,25 @@ Pour ce qui est des tests unitaires, ils sont effectués avec Jest. Ils peuvent 
 
 ## Mise en place d’un environnement de déploiement
 
-Nous avons 3 cloud provider. Nous utilisons Heroku pour le backend, nous avons donner accès au repository et à chaque fois que la branche main change il prend le code et lance les tests, puis le déploie et run avec Npm. Sur Netlify pour le frontend, il fait la même chose. La Base de donnée est hébergé chez MangoDB Altas. Il y a 2 DB, une pour les tests et une pour la production.
+Nous avons 3 cloud provider :
+* Heroku : Il est utilisé pour host le backend de l'application gratuitement, il watch le repo whateat-backend, dès lors qu'une modification est détéctée sur le repo, il récupère les changements, rebuild de son côté et "serve" le tout.
+
+* Netlify : Il est utilisé pour host le front gratuitement, un bot netlify est installé sur notre repo il lance les tests, et de la même manière qu'Heroku, Netlify watch le repo whateat-front et à chaque changement il récupère les données et les "serve".
+
+* MongoDB Atlas : Il est utilisé pour host nos bases de données gratuitement (production et développement)
+
 ![Infrastructure](https://user-images.githubusercontent.com/49392659/186679149-db00f90a-306c-4112-94e1-f724e93a96c5.png)
 
 ## Mise en place d’un pipeline de livraison et de déploiement (CI/CD)
 
-Nous avons une pipeline pour chaque environnement de déploiement. A partir qu'on merge du code sur la branche main du repository Github, on lancer les tests d'intégration, puis le serveur de déploiement va venir chercher le code et le déployer sur l'environnement de déploiement.
-![pipeline CICD](https://user-images.githubusercontent.com/49392659/186667137-c4e17547-baba-44c1-ac8a-c2612b5f289c.png)
+Nous avons mis en place 2 pipelines, un pour le frontend, l'autre pour le backend.
+
+Les deux pipelines ont la même logique de base à savoir :
+1. Le développeur merge sa feature branch sur la branche de dev
+2. Toutes les fin de sprints la branche dev est merge sur la branch main :
+   * Les CI/CD Github sont executées à ce moment
+   * Un développeur doit review et valider le merge
+3. Lorsque la branch main a été changé les clouds providers (Netlify, Heroku) viennent prendre les derniers changements et s'occupe de serve ce contenu.
+
+![Pipeline drawio](https://user-images.githubusercontent.com/49392659/186887699-760bf3e8-ae5c-41cf-971f-14e774afa910.png)
+
