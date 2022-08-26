@@ -163,7 +163,14 @@ Pour ce qui est des tests unitaires, ils sont effectués avec Jest. Ils peuvent 
 
 ## Mise en place d’un environnement de déploiement
 
-Nous avons 3 cloud provider. Nous utilisons Heroku pour le backend, nous avons donner accès au repository et à chaque fois que la branche main change il prend le code et lance les tests, puis le déploie et run avec Npm. Sur Netlify pour le frontend, il fait la même chose. La Base de donnée est hébergé chez MangoDB Altas. Il y a 2 DB, une pour les tests et une pour la production.
+Nous avons 3 cloud provider :
+* Heroku : Il est utilisé pour host le backend de l'application gratuitement, il watch le repo whateat-backend, dès lors qu'une modification est détéctée sur le repo, il récupère les changements, rebuild de son côté et "serve" le tout.
+
+* Netlify : Il est utilisé pour host le front gratuitement, un bot netlify est installé sur notre repo il lance les tests, et de la même manière qu'Heroku, Netlify watch le repo whateat-front et à chaque changement il récupère les données et les "serve".
+
+* MongoDB Atlas : Il est utilisé pour host nos bases de données gratuitement (production et développement)
+
+Nous utilisons Heroku pour le backend, nous avons donner accès au repository et à chaque fois que la branche main change il prend le code, le build, puis le serve. Sur Netlify pour le frontend, il fait la même chose. La Base de donnée est hébergé chez MangoDB Altas. Il y a 2 DB, une pour les tests et une pour la production.
 ![Infrastructure](https://user-images.githubusercontent.com/49392659/186679149-db00f90a-306c-4112-94e1-f724e93a96c5.png)
 
 ## Mise en place d’un pipeline de livraison et de déploiement (CI/CD)
