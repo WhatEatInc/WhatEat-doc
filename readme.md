@@ -15,7 +15,7 @@ location: "HEIG-VD"
 linestretch: 1.3
 ...
 
-# Cours PDG - Rapport de projet
+# Introduction
 
 Dans le cadre du cours PDG de la HEIG-VD, nous devons réaliser un travail de groupe qui consiste à développer une application web.
 
