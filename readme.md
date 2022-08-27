@@ -9,7 +9,9 @@ custom-title-page: true
 custom-title-page-logo: images/logo.png
 fontfamily: sourcesanspro
 fontfamilyoptions: default
-header-left: "Rapport de projet"
+title: "Rapport de projet"
+subtitle: "Cours PDG"
+location: "HEIG-VD"
 linestretch: 1.3
 ...
 

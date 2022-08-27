@@ -500,14 +500,14 @@ $if(custom-title-page)$
 		
 		\vspace{0.5cm}
 		\Huge
-		\textbf{Rapport de projet}
+		\textbf{$title$}
 		
 		\vspace{0.5cm}
-		\large{Cours PDG}
+		\LARGE{$subtitle$}
 		
 		\vspace{5cm}
 
-    \large{HEIG-VD}
+    \large{$location$}
 		\par
 	\end{center}
     \pagebreak
@@ -518,10 +518,10 @@ $if(has-frontmatter)$
 \frontmatter
 $endif$
 $if(title)$
-$if(beamer)$
-\frame{\titlepage}
-$else$
-\maketitle
+  $if(beamer)$
+  \frame{\titlepage}
+  $else$
+  %\maketitle
 $endif$
 $if(abstract)$
 \begin{abstract}
