@@ -1,21 +1,17 @@
 ---
-title: "WhatEat - Rapport de projet"
-date: "26.08.2022"
+graphics: true
+geometry: true
 lang: "fr"
-subtitle: "Version 0.1"
-titlepage: true
-titlepage-rule-height: 2
-titlepage-rule-color: "27ae60"
-titlepage-text-color: "000000"
-logo: "logo.pdf"
-logo-width: 60mm
 toc: true
 toc-own-page: true
 colorlinks: blue
+custom-title-page: true
+custom-title-page-logo: images/logo.png
+fontfamily: sourcesanspro
+fontfamilyoptions: default
+header-left: "Rapport de projet"
+linestretch: 1.3
 ...
-
-\renewcommand{\labelitemi}{$\bullet$}
-\renewcommand{\labelitemii}{$\circ$}
 
 # Cours PDG - Rapport de projet
 

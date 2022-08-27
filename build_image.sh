@@ -1,0 +1,1 @@
+docker build . -t whateat/pandoc --progress=plain --no-cache

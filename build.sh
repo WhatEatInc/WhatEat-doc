@@ -1,7 +1,7 @@
 docker run --rm \
     --volume "`pwd`:/data:Z" \
-    monodot/pandoc-eisvogel \
-    --template eisvogel \
+    whateat/pandoc \
+    --template template.tex \
     --from markdown \
     --to latex \
     --output "WhatEat - Rapport de projet.pdf" \
