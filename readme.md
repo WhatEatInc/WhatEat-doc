@@ -43,6 +43,9 @@ Pour la réalisation de ce projet, nous avons utilisé les technologies suivante
    - ExpressJS est devenu de facto le framework backend à utiliser en conjonction avec Node.js pour la création d'une API.
 - Base de données MongoDB et Mongoose
    - Nous avons fait le choix d'utiliser une base de données MongoDB. Nous avons fait ce choix car plusieurs membres de l'équipe ont déjà travaillé avec cet outil, de plus, Mongo Atlas permet d'héberger gratuitement des DB dans le Cloud. Nous utilisons également Mongoose afin de faciliter la communication entre Node.js et MangoDB. 
+
+\pagebreak
+
 - Serveur Heroku
    - Après avoir comparé plusieurs services d'hébergement de site web, nous avons fait le choix d'utiliser Heroku. Cet outil est simple à utiliser et gratuit pour les projets non commerciaux. Nous avons utilisé cet outil pour l'hébergement du backend.
    - Nous avions commencé par y héberger le frontend, mais nous nous sommes rendus compte que Heroku avait besoin de "buildpack" pour faire fonctionner React dessus. Après plusieurs tentatives nous avons décidé de l'héberger chez Netlify.
@@ -69,6 +72,8 @@ Pour ce projet, nous avons choisi de travailler en appliquant la méthode agile 
 - Tests automatisés
 
 De plus, nous trouvons que les valeurs et principes de cette méthode correspondent à notre philosophie de travail et permettent une bonne cohésion de groupe.
+
+\pagebreak
 
 # Gestion du projet
 
@@ -99,6 +104,8 @@ La gestion de ce tableau est semi-automatisée. En effet, l'ajout d'une fonction
 
 Une fois la tâche terminée et la PR merge avec la branche `develop`, la tâche est automatiquement close et déplacée dans la colonne Done.
 
+\pagebreak
+
 ## Sprints
 
 Chaque cycle de développement se fait en sprint. Au début de chaque sprint un meeting est organisé entre les membres du projet afin de définir les tâches à réaliser. L'objectif étant qu'à la fin du sprint toutes les tâches à faire soient terminées. Pour l'instant, la durée d'un sprint est équivalente à une semaine.
@@ -123,6 +130,8 @@ Nous avons choisi d'utiliser l'organisation de branches suivantes pour notre pro
 - Lorsqu'un membre de l'équipe commence à travailler sur une tâche, il s'associe la tâche et crée une nouvelle `feature branch` pour y écrire le code. Il doit également faire une estimation du temps nécessaire (Optimiste, Pessimiste, Attendu)
 - Une fois la feature terminée, il faut créer une PR depuis Github et assigner au moins une personne afin de review le code. Elle doit être validée par au moins un autre membre du groupe avant d'être merge par son créateur ou quelqu'un d'autre.
 - Une fois la PR validée, il est alors possible de merge la feature branche avec `develop`, supprimer la branche et fermer l'issue.
+
+\pagebreak
 
 ## Messages de commit
 
@@ -154,11 +163,11 @@ Lors de la phase de développement, nous faisons tourner le backend et le fronte
 
 Avec une telle architecture, il est tout à fait possible de faire des modifications sur le frontend sans endommager le backend et vice-versa. La backend de l'API a également été conçu afin de prendre en charge des versions d'API `/v1/users` et `/v2/users`. Cette solution nous permet aussi de modifier certains endpoints du backend sans corrompre les éventuels appels à des anciens endpoints.
 
+\pagebreak
+
 En ce qui concerne la base de données, nous avons fait le choix de créer deux base de données. Une de prod qui sera utilisée par l'application en ligne (Celle utilisée par nos users) puis une base de données de dev que nous utilisons lorsque nous faisons tourner le projet en local sur nos machines.
 
 Pour ce qui est des tests unitaires, ils sont effectués avec Jest. Ils peuvent être lancés en local ce qui va créer une DB locale dans la RAM uniquement pour les tests. Nous avons fait ce choix afin d'éviter des éventuels problèmes si plusieurs dev lancent les tests en même temps.
-
-\pagebreak
 
 # Mise en place d’un environnement de déploiement
 
