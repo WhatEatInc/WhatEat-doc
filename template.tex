@@ -236,6 +236,8 @@ $highlighting-macros$
 $endif$
 $if(tables)$
 \usepackage{longtable,booktabs,array}
+% Remove middle line in table
+\renewcommand{\midrule}[1]{}
 $if(multirow)$
 \usepackage{multirow}
 $endif$
@@ -479,7 +481,6 @@ contents={%
 $endif$
 $endif$
 $endif$
-
 
 \usepackage{enumitem}
 \usepackage{amsfonts}
