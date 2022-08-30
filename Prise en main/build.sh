@@ -4,6 +4,6 @@ docker run --rm \
     --template template.tex \
     --from markdown \
     --to latex \
-    --output "WhatEat - Landing page.pdf" \
+    --output "WhatEat - Prise en main.pdf" \
     --listings \
     "readme.md"
