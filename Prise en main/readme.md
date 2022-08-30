@@ -34,4 +34,4 @@ Il faut créer les 2 fichiers .env pour le projet. On reprend le fichier .env.ex
 # Lancer l'application
 Installer Node.js et NPM
 
-Lancer NPM Install, puis NPM Start
+Lancer NPM Install, puis NPM Start sur les 2 apllications.
