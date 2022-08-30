@@ -17,3 +17,9 @@ tables: true
 ...
 
 # Copier le projet
+Il faut installer Git sur le machine.
+Il faut se mettre dans le répertoire ou on veut clone le repository.
+Cloner le frontend
+`git clone https://github.com/WhatEatInc/WhatEat-front `
+Cloner le backend
+`git clone https://github.com/WhatEatInc/WhatEat-back `
