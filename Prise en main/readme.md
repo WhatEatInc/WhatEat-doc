@@ -18,6 +18,7 @@ tables: true
 
 # Copier le projet
 Il faut installer Git sur le machine.
+
 Il faut se mettre dans le répertoire ou on veut clone le repository.
 
 Cloner le frontend
@@ -27,3 +28,10 @@ Cloner le frontend
 Cloner le backend
 
 `git clone https://github.com/WhatEatInc/WhatEat-back `
+
+Il faut créer les 2 fichiers .env pour le projet. On reprend le fichier .env.example et on remplit les informations.
+
+# Lancer l'application
+Installer Node.js et NPM
+
+Lancer NPM Install, puis NPM Start
