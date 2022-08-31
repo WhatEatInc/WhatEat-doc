@@ -100,15 +100,11 @@ npm install
 ```
 
 4. Lancer le serveur
-
 ```bash
 npm run start
 ```
-Vous pouvez ensuite accéder à la page d'accueil du site via l'adresse suivante :
+Vous pouvez ensuite accéder à la page d'accueil du site via l'adresse suivante : [http://localhost:3000/](http://localhost:3000/)
 
-```HTTP
-http://localhost:3000/
-```
 
 # Documentation de l'API
 
