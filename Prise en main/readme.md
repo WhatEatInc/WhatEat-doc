@@ -52,7 +52,7 @@ Une fois le projet cloné, il est nécessaire de créer un fichier `.env` qui co
 
 Pour le secret du token JWT, vous pouvez saisir un mot de passe aléatoire.
 
-3. Installer les dépendaces
+3. Installer les dépendances
 
 ```bash
 npm install
@@ -104,3 +104,12 @@ npm install
 ```bash
 npm run start
 ```
+Vous pouvez ensuite accéder à la page d'accueil du site via l'adresse suivante :
+
+```HTTP
+http://localhost:3000/
+```
+
+# Documentation de l'API
+
+TODO
