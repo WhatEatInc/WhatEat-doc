@@ -78,6 +78,8 @@ Il est ensuite possible d'effectuer des requêtes HTTP sur l'API du backend.
 GET http://localhost:<PORT>/
 ```
 
+### Structure du projet
+
 ## Frontend
 
 Le frontend utilise ReactJS
@@ -104,6 +106,8 @@ npm install
 npm run start
 ```
 Vous pouvez ensuite accéder à la page d'accueil du site via l'adresse suivante : [http://localhost:3000/](http://localhost:3000/)
+
+### Structure du projet
 
 
 # Documentation de l'API
