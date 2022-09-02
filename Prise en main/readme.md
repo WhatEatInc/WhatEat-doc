@@ -116,13 +116,16 @@ TODO
 
 ## Backend
 
+## Frontend
+
 \pagebreak
 
-\begin{TreeStruct}{Structure des dossiers du backend}
+\begin{TreeStruct}{Structure des dossiers du frontend}
 		\setstretch{1.0}
 		\begin{multicols}{2}
 			\dirtree{%
-				.1 public/.			
+				.1 node_modules/.
+                .1 public/.			
 				.1 src/.
 				.2 components/.		
 				.3 app/.
@@ -142,16 +145,18 @@ TODO
 				.2 images/.
 				.2 other/.
 				.2 pages/.
+                .2 index.js.
+                .1 .env.
 			}
 		
 			\columnbreak
 			
-			coucou \\
-			salut \\
-			coucou \\
-			salut \\
-			coucou \\
-			salut \\
+			Contient les dépendances du projet \\
+			Contient les fichiers html du site web \\
+			Contient les fichiers sources du projet \\
+			Contient les Component de l'app. Les Components sont des petites partie de l'application qui représente des fonctionnalité spécifique \\
+			Représente la page d'acceuil du site \\
+			Défini les bouton et les méthodes qui vont avec \\
 			coucou \\
 			salut \\
 			coucou \\
