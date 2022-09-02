@@ -78,8 +78,6 @@ Il est ensuite possible d'effectuer des requêtes HTTP sur l'API du backend.
 GET http://localhost:<PORT>/
 ```
 
-### Structure du projet
-
 ## Frontend
 
 Le frontend utilise ReactJS
@@ -110,12 +108,17 @@ Vous pouvez ensuite accéder à la page d'accueil du site via l'adresse suivante
 
 # Documentation de l'API
 
-TODO
+La documentation de l'API du backend est disponible à l'adresse suivante : 
+
+[https://whateat-backend.herokuapp.com/v0/docs/](https://whateat-backend.herokuapp.com/v0/docs/)
+
+\pagebreak
 
 # Structure du projet
 
+Pour avoir une meilleure vue d'ensemble du projet, voici la structure des dossiers et fichiers du backend et du frontend. 
+
 ## Backend
-\pagebreak
 
 \begin{TreeStruct}{Structure des dossiers du backend}
 		\setstretch{0.83}
@@ -129,7 +132,13 @@ TODO
                 .3 recipe.controllers.js.
                 .3 user.controllers.js.
                 .2 models/.
+				.3 user.model.js.
+				.3 preference.model.js.
                 .2 routes/.
+				.3 apiDoc.routes.js.
+				.3 recipe.routes.js.
+				.3 user.routes.js.
+				.3 v0.routes.js.
                 .2 tests/.
                 .2 app.js.
                 .2 server.js.
@@ -139,16 +148,22 @@ TODO
 			\columnbreak
             \begin{small}
                 Contient la documentation de l'API \\
-                Contient les fichiers sources du projet \\
-                Contient les configs nécessaire à l'app \\
-                Contient les fichiers qui traite les requêtes HTTP \\
-                Gère l'authentification des requêtes \\
-                Gère les requêtes lié aux recettes \\
-                Gère les requêtes lié aux utilisateurs \\
-                Contient les modèles pour connecter la DB \\
-                Contient les routes séparé par version de l'API \\
+                \\
+                Fichiers de configs nécessaire à l'app \\
+                Gère la logique \\
+                Gestion de l'authentification \\
+                Gestion des recettes \\
+                Gestion des utilisateurs \\
+                Gère les données et leur structure \\
+				Modèle de l'utilisateur \\
+				Modèle des préférences \\
+                Contient les routes de l'API \\
+				Routes de la documentation \\
+				Routes des recettes \\
+				Routes des utilisateurs \\
+				Routes de la v0 de l'API \\
                 Contient les tests de l'application \\
-                Contient les appels à CORS et au router \\
+                Point d'entrée de l'application \\
                 Contient la connexion à la DB \\
                 Contient les variables d'environnement \\
             \end{small}
@@ -161,10 +176,13 @@ TODO
 		\setstretch{0.85}
 		\begin{multicols}{2}
 			\dirtree{%
-                .1 public/.			
+                .1 public/.	
+				.2 index.html.	
 				.1 src/.
 				.2 components/.		
 				.3 app/.
+				.4 App.js.
+				.4 WhatEat.js.
 				.3 button/.
 				.3 counter/.
 				.3 error/.
@@ -179,33 +197,36 @@ TODO
                 .3 base/.
                 .3 components/.
 				.2 images/.
-				.2 other/.
 				.2 pages/.
+				.2 index.js.
                 .1 .env.
 			}
 		
 			\columnbreak
             \begin{small}
-                Contient les fichiers html du site web \\
-                Contient les fichiers sources du projet \\
+                Point d'entrée de l'application \\
+                \\
+				\\
                 Contient des fonctionnalité spécifique de l'app \\
-                Représente la page d'acceuil du site \\
-                Défini les boutons utiliser dans l'app \\
-                Défini les boutons change un compteur \\
-                Défini les messages d'erreurs de l'application \\
+                \\
+				Composant principal de l'application \\
+				Composant principal du site web \\
+                Défini les boutons \\
+                Défini le compteur \\
+                Défini les messages d'erreurs \\
                 Défini la bannière en bas de l'application \\
-                Défini la bannière en haut de l'applicatiom \\
+                Défini la bannière en haut de l'application \\
                 Défini l'affichage de la liste des ingrédients \\
                 Défini l'affichage de la recette \\
-                Défini les champs des paramètres de l'app \\
+                Défini les champs des paramètres \\
                 Défini l'affichage des étapes de la recette \\
-                Contient les configs pour L'API \\
-                Contient les fichiers CSS de l'app \\
-                Contient les fichiers qui définisse le layout \\
-                Contient le CSS des components \\
+                Contient les configs pour l'API \\
+                Contient les fichiers de style de l'app \\
+                Fichiers de styles globaux \\
+                Fichiers de styles des composants \\
                 Contient les images de l'application \\
-                Contient une recette exemple \\
-                Contient les fichiers des pages de l'application \\
+                Contient les pages de l'application \\
+				Point d'entrée de l'application ReactJS \\
                 Contient les variables d'environnement \\
             \end{small}
 		\end{multicols}
