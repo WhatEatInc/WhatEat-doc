@@ -115,16 +115,51 @@ TODO
 # Structure du projet
 
 ## Backend
+\pagebreak
+
+\begin{TreeStruct}{Structure des dossiers du backend}
+		\setstretch{1.0}
+		\begin{multicols}{2}
+			\dirtree{%
+                .1 apidoc/.
+                .1 src/.
+                .2 config/.
+                .2 controllers/.
+                .3 auth.controllers.js.
+                .3 recipe.controllers.js.
+                .3 user.controllers.js.
+                .2 models/.
+                .2 routes/.
+                .2 tests/.
+                .2 app.js.
+                .2 server.js.
+                .1 .env.
+			}
+
+			\columnbreak
+            Contient la documentation de l'API \\
+            Contient les fichiers sources du projet \\
+            Contient les configs nécessaire au fonctionnement de l'app \\
+            Contient les fichiers qui traite les requêtes HTTP \\
+            Gère l'authentification des requêtes \\
+            Gère les requêtes lié aux recettes \\
+            Gère les requêtes lié aux utilisateurs \\
+            Contient les modèles Mongoose pour communiquer avec la DB \\
+            Contient les routes de l'API séparé par les différentes version \\
+            Contient les tests de l'application \\
+            Contient les appels à CORS et au router du backend \\
+            Contient la connexion à la DB \\
+            Contient les variable d'envirronnement de l'application \\
+		\end{multicols}
+	\end{TreeStruct}
 
 ## Frontend
-
 \pagebreak
 
 \begin{TreeStruct}{Structure des dossiers du frontend}
 		\setstretch{1.0}
 		\begin{multicols}{2}
 			\dirtree{%
-				.1 node_modules/.
                 .1 public/.			
 				.1 src/.
 				.2 components/.		
@@ -140,27 +175,36 @@ TODO
 				.3 steps/.
 				.2 config/.
 				.2 css/.
-				.3 base/.
-				.3 components/.
+                .3 base/.
+                .3 components/.
 				.2 images/.
 				.2 other/.
 				.2 pages/.
-                .2 index.js.
                 .1 .env.
 			}
 		
 			\columnbreak
-			
-			Contient les dépendances du projet \\
 			Contient les fichiers html du site web \\
 			Contient les fichiers sources du projet \\
-			Contient les Component de l'app. Les Components sont des petites partie de l'application qui représente des fonctionnalité spécifique \\
+			Les Components représente des fonctionnalité spécifique de l'app \\
 			Représente la page d'acceuil du site \\
-			Défini les bouton et les méthodes qui vont avec \\
-			coucou \\
-			salut \\
-			coucou \\
-			salut \\
+			Défini les boutons et les méthodes qui vont avec \\
+			Défini les boutons qui font changer la valeur champs \\
+			Défini les messages d'erreurs de l'application \\
+			Défini la bannière en bas de l'application \\
+			Défini la bannière en haut de l'applicatiom \\
+            Défini l'affichage de la liste des ingrédients \\
+            Défini l'affichage de la recette \\
+            Défini les champs des paramètres de l'app \\
+            Défini l'affichage des étapes de la recette \\
+            Contient les configs pour L'API \\
+            Contient les fichiers CSS de l'app \\
+            Contient les fichiers qui définisse le layout \\
+            Contient les fichiers qui sont utilisé par les component \\
+            Contient les images de l'application \\
+            Contient une recette pour les tests durant le developpement \\
+            Contient les fichiers des pages de l'application \\
+            Contient les variable d'envirronnement de l'application \\
 		\end{multicols}
 	\end{TreeStruct}
 
