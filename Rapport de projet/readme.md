@@ -200,6 +200,17 @@ Les deux pipelines ont la même logique de base à savoir :
 ![Pipeline drawio](https://user-images.githubusercontent.com/49392659/186888512-bd6b61aa-47b6-438c-a1e0-caa91cd6007f.png)
 
 # Rapport Sprint 1
+
+## Draft 1
+Nous avons rédigé le cahier des charges, la landing Page, des mock-up et la documentation de projet.
+
+Nous avons mis en place la pipeline de développement pour le frontend et le backend.
+
+Nous avons mis en place la base du frontend et du backend sur les cloud provider.
+
+Nous avons créer une requête qui vas du front au backend.
+
+## Draft 2
 Nous avons choisi le projet, puis nous avons commencé la rédaction des documents:
    - Rédaction du cahier des charges
    - Rédaction de la landing Page
@@ -232,7 +243,6 @@ Nous avons ajouté la communication entre le backend et le frontend
    - Connexion frontend et backend fonctionnelle
    - Connexion de l'application à MongoDB Atlas
    - Création de la présentation de lundi
-
 
 
 # Rapport Sprint 2
