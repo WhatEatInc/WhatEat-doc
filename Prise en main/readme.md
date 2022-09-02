@@ -78,6 +78,8 @@ Il est ensuite possible d'effectuer des requêtes HTTP sur l'API du backend.
 GET http://localhost:<PORT>/
 ```
 
+### Structure du projet
+
 ## Frontend
 
 Le frontend utilise ReactJS
