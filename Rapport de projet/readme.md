@@ -200,7 +200,7 @@ Les deux pipelines ont la même logique de base à savoir :
 ![Pipeline drawio](https://user-images.githubusercontent.com/49392659/186888512-bd6b61aa-47b6-438c-a1e0-caa91cd6007f.png)
 
 # Rapport Sprint 1
-Nous Avons choisi le projet ,puis nous avons commencé la rédaction des documents:
+Nous avons choisi le projet, puis nous avons commencé la rédaction des documents:
    - Rédaction du cahier des charges
    - Rédaction de la landing Page
    - Création des mock-up sur Figma
