@@ -139,17 +139,17 @@ TODO
 			\columnbreak
             Contient la documentation de l'API \\
             Contient les fichiers sources du projet \\
-            Contient les configs nécessaire au fonctionnement de l'app \\
+            Contient les configs nécessaire à l'app \\
             Contient les fichiers qui traite les requêtes HTTP \\
             Gère l'authentification des requêtes \\
             Gère les requêtes lié aux recettes \\
             Gère les requêtes lié aux utilisateurs \\
-            Contient les modèles Mongoose pour communiquer avec la DB \\
-            Contient les routes de l'API séparé par les différentes version \\
+            Contient les modèles pour connecter la DB \\
+            Contient les routes séparé par version de l'API \\
             Contient les tests de l'application \\
-            Contient les appels à CORS et au router du backend \\
+            Contient les appels à CORS et au router \\
             Contient la connexion à la DB \\
-            Contient les variable d'envirronnement de l'application \\
+            Contient les variables d'environnement \\
 		\end{multicols}
 	\end{TreeStruct}
 
@@ -186,10 +186,10 @@ TODO
 			\columnbreak
 			Contient les fichiers html du site web \\
 			Contient les fichiers sources du projet \\
-			Les Components représente des fonctionnalité spécifique de l'app \\
+			Contient des fonctionnalité spécifique de l'app \\
 			Représente la page d'acceuil du site \\
-			Défini les boutons et les méthodes qui vont avec \\
-			Défini les boutons qui font changer la valeur champs \\
+			Défini les boutons utiliser dans l'app \\
+			Défini les boutons change un compteur \\
 			Défini les messages d'erreurs de l'application \\
 			Défini la bannière en bas de l'application \\
 			Défini la bannière en haut de l'applicatiom \\
@@ -200,11 +200,11 @@ TODO
             Contient les configs pour L'API \\
             Contient les fichiers CSS de l'app \\
             Contient les fichiers qui définisse le layout \\
-            Contient les fichiers qui sont utilisé par les component \\
+            Contient le CSS des components \\
             Contient les images de l'application \\
-            Contient une recette pour les tests durant le developpement \\
+            Contient une recette exemple \\
             Contient les fichiers des pages de l'application \\
-            Contient les variable d'envirronnement de l'application \\
+            Contient les variables d'environnement \\
 		\end{multicols}
 	\end{TreeStruct}
 
