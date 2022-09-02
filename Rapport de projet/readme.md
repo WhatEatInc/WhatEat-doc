@@ -231,7 +231,7 @@ Nous avons ajouté la communication entre le backend et le frontend
    - Activation des CORS
    - Connexion frontend et backend fonctionnelle
    - Connexion de l'application à MongoDB Atlas
-   - Création de la présentation de lundi prochain
+   - Création de la présentation de lundi
 
 
 
