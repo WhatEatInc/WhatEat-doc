@@ -154,7 +154,6 @@ TODO
 	\end{TreeStruct}
 
 ## Frontend
-\pagebreak
 
 \begin{TreeStruct}{Structure des dossiers du frontend}
 		\setstretch{1.0}
