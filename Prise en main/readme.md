@@ -118,7 +118,7 @@ TODO
 \pagebreak
 
 \begin{TreeStruct}{Structure des dossiers du backend}
-		\setstretch{1.0}
+		\setstretch{0.83}
 		\begin{multicols}{2}
 			\dirtree{%
                 .1 apidoc/.
@@ -137,26 +137,28 @@ TODO
 			}
 
 			\columnbreak
-            Contient la documentation de l'API \\
-            Contient les fichiers sources du projet \\
-            Contient les configs nécessaire à l'app \\
-            Contient les fichiers qui traite les requêtes HTTP \\
-            Gère l'authentification des requêtes \\
-            Gère les requêtes lié aux recettes \\
-            Gère les requêtes lié aux utilisateurs \\
-            Contient les modèles pour connecter la DB \\
-            Contient les routes séparé par version de l'API \\
-            Contient les tests de l'application \\
-            Contient les appels à CORS et au router \\
-            Contient la connexion à la DB \\
-            Contient les variables d'environnement \\
+            \begin{small}
+                Contient la documentation de l'API \\
+                Contient les fichiers sources du projet \\
+                Contient les configs nécessaire à l'app \\
+                Contient les fichiers qui traite les requêtes HTTP \\
+                Gère l'authentification des requêtes \\
+                Gère les requêtes lié aux recettes \\
+                Gère les requêtes lié aux utilisateurs \\
+                Contient les modèles pour connecter la DB \\
+                Contient les routes séparé par version de l'API \\
+                Contient les tests de l'application \\
+                Contient les appels à CORS et au router \\
+                Contient la connexion à la DB \\
+                Contient les variables d'environnement \\
+            \end{small}
 		\end{multicols}
 	\end{TreeStruct}
 
 ## Frontend
 
 \begin{TreeStruct}{Structure des dossiers du frontend}
-		\setstretch{1.0}
+		\setstretch{0.85}
 		\begin{multicols}{2}
 			\dirtree{%
                 .1 public/.			
@@ -183,27 +185,29 @@ TODO
 			}
 		
 			\columnbreak
-			Contient les fichiers html du site web \\
-			Contient les fichiers sources du projet \\
-			Contient des fonctionnalité spécifique de l'app \\
-			Représente la page d'acceuil du site \\
-			Défini les boutons utiliser dans l'app \\
-			Défini les boutons change un compteur \\
-			Défini les messages d'erreurs de l'application \\
-			Défini la bannière en bas de l'application \\
-			Défini la bannière en haut de l'applicatiom \\
-            Défini l'affichage de la liste des ingrédients \\
-            Défini l'affichage de la recette \\
-            Défini les champs des paramètres de l'app \\
-            Défini l'affichage des étapes de la recette \\
-            Contient les configs pour L'API \\
-            Contient les fichiers CSS de l'app \\
-            Contient les fichiers qui définisse le layout \\
-            Contient le CSS des components \\
-            Contient les images de l'application \\
-            Contient une recette exemple \\
-            Contient les fichiers des pages de l'application \\
-            Contient les variables d'environnement \\
+            \begin{small}
+                Contient les fichiers html du site web \\
+                Contient les fichiers sources du projet \\
+                Contient des fonctionnalité spécifique de l'app \\
+                Représente la page d'acceuil du site \\
+                Défini les boutons utiliser dans l'app \\
+                Défini les boutons change un compteur \\
+                Défini les messages d'erreurs de l'application \\
+                Défini la bannière en bas de l'application \\
+                Défini la bannière en haut de l'applicatiom \\
+                Défini l'affichage de la liste des ingrédients \\
+                Défini l'affichage de la recette \\
+                Défini les champs des paramètres de l'app \\
+                Défini l'affichage des étapes de la recette \\
+                Contient les configs pour L'API \\
+                Contient les fichiers CSS de l'app \\
+                Contient les fichiers qui définisse le layout \\
+                Contient le CSS des components \\
+                Contient les images de l'application \\
+                Contient une recette exemple \\
+                Contient les fichiers des pages de l'application \\
+                Contient les variables d'environnement \\
+            \end{small}
 		\end{multicols}
 	\end{TreeStruct}
 
