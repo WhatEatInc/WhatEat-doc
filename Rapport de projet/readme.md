@@ -201,16 +201,6 @@ Les deux pipelines ont la même logique de base à savoir :
 
 # Rapport Sprint 1
 
-## Draft 1
-Nous avons rédigé le cahier des charges, la landing Page, des mock-up et la documentation de projet.
-
-Nous avons mis en place la pipeline de développement pour le frontend et le backend.
-
-Nous avons mis en place la base du frontend et du backend sur les cloud provider.
-
-Nous avons créer une requête qui vas du front au backend.
-
-## Draft 2
 Nous avons choisi le projet, puis nous avons commencé la rédaction des documents:
    - Rédaction du cahier des charges
    - Rédaction de la landing Page
