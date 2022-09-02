@@ -221,6 +221,11 @@ $endif$
 
 \usepackage{listings}
 \usepackage{color}
+\usepackage{dirtree}
+\usepackage{tcolorbox}
+\usepackage{multicol}
+\tcbuselibrary{breakable}
+\tcbuselibrary{skins}
 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
@@ -242,6 +247,8 @@ $endif$
 	breakatwhitespace=true,
 	tabsize=3
 }
+
+\newenvironment{TreeStruct}[1]{\begin{tcolorbox}[enhanced jigsaw, arc=0pt, boxrule=0.2pt, opacityback=0pt, title={#1}]}{\end{tcolorbox}}
 
 $if(beamer)$
 \newif\ifbibliography

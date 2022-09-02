@@ -109,3 +109,51 @@ Vous pouvez ensuite accéder à la page d'accueil du site via l'adresse suivante
 # Documentation de l'API
 
 TODO
+
+# Structure du projet
+
+## Backend
+
+\pagebreak
+
+\begin{TreeStruct}{Structure des dossiers du backend}
+		\setstretch{1.0}
+		\begin{multicols}{2}
+			\dirtree{%
+				.1 public/.			
+				.1 src/.
+				.2 components/.		
+				.3 app/.
+				.3 button/.
+				.3 counter/.
+				.3 error/.
+				.3 footer/.
+				.3 header/.
+				.3 ingredients/.
+				.3 recipe-card/.
+				.3 settings/.
+				.3 steps/.
+				.2 config/.
+				.2 css/.
+				.3 base/.
+				.3 components/.
+				.2 images/.
+				.2 other/.
+				.2 pages/.
+			}
+		
+			\columnbreak
+			
+			coucou \\
+			salut \\
+			coucou \\
+			salut \\
+			coucou \\
+			salut \\
+			coucou \\
+			salut \\
+			coucou \\
+			salut \\
+		\end{multicols}
+	\end{TreeStruct}
+
