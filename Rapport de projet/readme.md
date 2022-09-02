@@ -236,24 +236,45 @@ Nous avons ajouté la communication entre le backend et le frontend
 
 
 # Rapport Sprint 2
-Création de la page register
-Création endpoint register
-Création de la page login
-Création endpoint login
-Création de la page settings
-Création endpoint settings
-Création endpoint preferences
-Création endpoint log-out
-Création de la page Today
+
+Nous avons commencé à dévelloper le frontend
+   - Création de la page register
+   - Création de la page login
+   - Création de la page settings
+   - Création de la page Today
+   - Création de la changement de mot de pase
+
 Création de la page recette complète
 Ajout de la quantité de la recette
 Création endpoint recette
 Création endpoint change password
 Création de la page change password
 Ajout de l'authentification avec token
+Création des routes de Reactjs
+Création des endpoints backend
 ajout des tests pour Jest
 Ajout apidoc
 Utilisation express-validator
 export recette PDF
 Mise en forme du CSS du site
+Mise en forme du CSS des Components
 Création du document prise en main
+Création des components app
+   - Création des components button
+   - Création des components counter
+   - Création des components error
+   - Création des components footer
+   - Création des components header
+   - Création des components ingredients
+   - Création des components recipe-card
+   - Création des components settings
+   - Création des components steps
+   - Création du endpoint register
+   - Création endpoint login
+   - Création endpoint settings
+   - Création endpoint preferences
+   - Création endpoint log-out
+
+   # Rapport Sprint 3
+
+   Landing Page
