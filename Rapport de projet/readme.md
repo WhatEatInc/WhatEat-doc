@@ -198,3 +198,62 @@ Les deux pipelines ont la même logique de base à savoir :
 \
 
 ![Pipeline drawio](https://user-images.githubusercontent.com/49392659/186888512-bd6b61aa-47b6-438c-a1e0-caa91cd6007f.png)
+
+# Rapport Sprint 1
+
+Nous avons choisi le projet, puis nous avons commencé la rédaction des documents:
+   - Rédaction du cahier des charges
+   - Rédaction de la landing Page
+   - Création des mock-up sur Figma
+   - Création de la documentation du projet avec la méthodologie de developpement
+
+Nous avons commencé la mise en place du projet
+   - Création d'un repository Github
+   - Création compte sur MongoDB Atlas
+   - Création compte sur Heroku
+   - Création DB sur MongoDB Atlas
+   - Création de la base de l'app frontend
+   - Création de la base de l'app backend
+   - Déploiement sur Heroku
+   - Création compte sur Netlify
+   - Déploiement sur Netlify
+
+Nous avons ajouté la mise en place dans la documentation et préparé la pipeline Github
+   - Création de la documentation du projet avec la mise en place de déploiement
+   - Détail des features de l'API de Spooncular
+   - Contacter Spooncular pour avoir un compte académique.
+   - Création des issues en fonction des besoins fonctionnel présenté dans le cahier des charges
+   - Ajout de Prettier sur Github
+   - Ajout de Jest sur Github
+
+Nous avons ajouté la communication entre le backend et le frontend
+   - Création d'une route test
+   - Création d'un fetch test
+   - Activation des CORS
+   - Connexion frontend et backend fonctionnelle
+   - Connexion de l'application à MongoDB Atlas
+   - Création de la présentation de lundi
+
+
+# Rapport Sprint 2
+Création de la page register
+Création endpoint register
+Création de la page login
+Création endpoint login
+Création de la page settings
+Création endpoint settings
+Création endpoint preferences
+Création endpoint log-out
+Création de la page Today
+Création de la page recette complète
+Ajout de la quantité de la recette
+Création endpoint recette
+Création endpoint change password
+Création de la page change password
+Ajout de l'authentification avec token
+ajout des tests pour Jest
+Ajout apidoc
+Utilisation express-validator
+export recette PDF
+Mise en forme du CSS du site
+Création du document prise en main
