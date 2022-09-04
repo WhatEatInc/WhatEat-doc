@@ -199,61 +199,78 @@ Les deux pipelines ont la même logique de base à savoir :
 
 ![Pipeline drawio](https://user-images.githubusercontent.com/49392659/186888512-bd6b61aa-47b6-438c-a1e0-caa91cd6007f.png)
 
-# Rapport Sprint 1
+\pagebreak
 
-Nous avons choisi le projet, puis nous avons commencé la rédaction des documents:
+# Rapport de sprints
+
+Dans ce chapitre, nous allons détailler les différentes tâches effectuées au cours des divers sprints planifiés durant ce projet. Nous allons également détailler les problèmes rencontrés et les solutions apportées.
+
+## Sprint 1
+
+Durant ce sprint, nous avons choisi le projet puis nous avons commencé la rédaction des divers documents.
+
    - Rédaction du cahier des charges
-   - Rédaction de la landing Page
+   - Rédaction de la landing page
    - Création des mock-up sur Figma
-   - Création de la documentation du projet avec la méthodologie de developpement
+   - Création de la documentation du projet avec la méthodologie de développement
 
-Nous avons commencé la mise en place du projet
-   - Création d'un repository Github
-   - Création compte sur MongoDB Atlas
-   - Création compte sur Heroku
-   - Création DB sur MongoDB Atlas
+Dans un second temps, nous avons commencé la mise en place du projet 
+
+   - Création d'une organisation Github pour le projet sur laquelle nous avons créé les différents repos
+   - Création d'un compte sur MongoDB Atlas
+   - Création des DB (prod et tests) sur MongoDB Atlas
+   - Création d'un compte sur Heroku
    - Création de la base de l'app frontend
    - Création de la base de l'app backend
-   - Déploiement sur Heroku
-   - Création compte sur Netlify
-   - Déploiement sur Netlify
+   - Déploiement de test sur Heroku
+   - Création d'un compte sur Netlify
+   - Déploiement de test sur Netlify
 
-Nous avons ajouté la mise en place dans la documentation et préparé la pipeline Github
-   - Création de la documentation du projet avec la mise en place de déploiement
-   - Détail des features de l'API de Spooncular
-   - Contacter Spooncular pour avoir un compte académique.
-   - Création des issues en fonction des besoins fonctionnel présenté dans le cahier des charges
-   - Ajout de Prettier sur Github
-   - Ajout de Jest sur Github
+Ces diverses tâches ont été effectuées afin de préparer au mieux le projet pour le sprint 2. En parallèle, nous avons commencé à créer la pipeline Github Actions.
 
-Nous avons ajouté la communication entre le backend et le frontend
-   - Création d'une route test
-   - Création d'un fetch test
+   - Mise en place de l'environnement de développement et de déploiement
+   - Contacter `Spooncular` pour avoir un compte académique et ainsi bénéficier d'une offre étudiant.
+   - Lister les features de l'API de `Spooncular` que nous avons décidé d'utiliser et que nous proposerons à nos utilisateurs
+   - Création des issues sur Github en fonction des besoins fonctionnels présentés dans le cahier des charges
+   - Création de la pipeline Github Actions pour le backend avec prettier et Jest pour les tests unitaires
+
+Nous avons terminé le sprint en testant la communication entre le backend et le frontend
+
+   - Création d'une route de test sur le backend
+   - Création d'une requête fetch du frontend au backend
    - Activation des CORS
-   - Connexion frontend et backend fonctionnelle
-   - Connexion de l'application à MongoDB Atlas
-   - Création de la présentation de lundi
+   - Connexion du backend à MongoDB Atlas
 
+En fin de semaine, nous avons préparé la présentation de lundi qui a pour objectif de présenter notre projet, ses objectifs et ses fonctionnalités, aux autres groupes.
 
-# Rapport Sprint 2
-Création de la page register
-Création endpoint register
-Création de la page login
-Création endpoint login
-Création de la page settings
-Création endpoint settings
-Création endpoint preferences
-Création endpoint log-out
-Création de la page Today
-Création de la page recette complète
-Ajout de la quantité de la recette
-Création endpoint recette
-Création endpoint change password
-Création de la page change password
-Ajout de l'authentification avec token
-ajout des tests pour Jest
-Ajout apidoc
-Utilisation express-validator
-export recette PDF
-Mise en forme du CSS du site
-Création du document prise en main
+## Sprint 2
+
+Pour ce deuxième sprint, nous nous sommes principalement concentrés sur le développement de l'application. Nous avons décidé de nous répartir le travail avec une équipe en charge du frontend ainsi qu'un équipe pour le backend.
+
+Les diverses tâches effectuées sont les suivantes : 
+
+   - Création des routes du backend (API Endpoints)
+   - Mise en place de la connexion entre le backend et MongoDB Atlas
+   - Création des modèles de données pour les différentes collections de la DB
+   - Mise en place des tests unitaires pour le backend
+   - Mise en place de la connexion entre le frontend et le backend
+   - Ajout de l'authentification avec token JWT
+   - Création des diverses pages du frontend (Today, Recipe details, Settings, Login, Register, Change password)
+   - Mise à jour des préférences de l'utilisateur et récupération d'une recette adaptée
+   - Mise en forme des pages du frontend (CSS)
+   - Mise à jour des quantités de chaque ingrédient en fonction du nombre de personnes
+   - Export d'une recette en PDF
+
+Assez rapidement, nous avons dû nous intéresser aux tokens JWT afin de protéger certains endpoints du backend. Après avoir fait de nombreuses recherches, nous avons facilement pu implémenter ces tokens dans notre application tout en vérifiant le bon fonctionnement de l'application côté frontend.
+
+En ce qui concerne la documentation, nous avons créé le document de prise en main du projet. Ce document a pour objectif de permettre à un nouveau développeur de prendre en main le projet en quelques minutes tout en ayant une vision globale de la structure du projet. Pour faciliter cette prise en main, nous avons également créé une documentation de notre API avec API Doc. 
+
+### Difficultés rencontrées
+
+Durant ce sprint, une tâche nous pris plus de temps que prévu. Il s'agit de la fonctionnalité d'export en PDF d'une recette. Bien que cela puisse paraître simple, nous avons passé beaucoup de temps à trouver une solution à ce problème. Nous avons finalement opté pour la librairie `jspdf` et `html2canvas`. De plus, la mise en page de la recette au format A4 n'était pas simple à réaliser et nous avons rencontré divers bugs entre les différents lecteurs PDF sur mobile. Après avoir passé beaucoup de temps pour obtenir un PDF lisible sur toutes les plateformes, nous avons finalement réussi à obtenir un résultat satisfaisant.
+
+\pagebreak
+
+## Sprint 3
+
+TODO
