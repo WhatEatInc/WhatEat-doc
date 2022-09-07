@@ -181,7 +181,7 @@ Nous avons 3 cloud provider :
 \
 \
 
-![Infrastructure](https://user-images.githubusercontent.com/49392659/186679149-db00f90a-306c-4112-94e1-f724e93a96c5.png)
+![Infrastructure](./images/backend_schema.png)
 
 \pagebreak
 
