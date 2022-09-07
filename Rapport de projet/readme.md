@@ -276,3 +276,19 @@ Durant ce sprint, une tâche nous pris plus de temps que prévu. Il s'agit de la
 ## Sprint 3
 
 TODO
+
+# Comparaison temps estimé et réalisé
+
+En fin de sprint, nous avons récupéré les données de temps indiquées dans les issues Github afin de comparer les temps attendus et effectués. Vous trouverez en [annexe](#annexes) tous les détails des temps. 
+
+Les résultats obtenus pour le backend et le frontend montrent que dans les deux cas, le temps effectué est le double du temps attendu. De plus, nous constatons que le temps effectué est légèrement supérieur au temps pessimiste (env 4h dans les deux cas). 
+
+Nous pouvons donc en conclure que pour nos futurs projets, il sera nécessaire de revoir à la hausse nos estimations "attendue". Nous restons tout de même assez satisfait du fait que le temps effectué soit très proche du temps pessimiste.
+
+\pagebreak
+
+# Annexes
+
+![Comparaison des temps pour le backend](./images/backend-stats.png)
+
+![Comparaison des temps pour le frontend](./images/frontend-stats.png)
