@@ -275,4 +275,20 @@ Durant ce sprint, une tâche nous pris plus de temps que prévu. Il s'agit de la
 
 ## Sprint 3
 
-TODO
+Nous avons fini les issues manquantes sur Github:
+   - Endpoint Reroll
+   - Landing Page
+   - Boutton Reroll
+   - finir la page Today
+   - Test Jest
+   - Cleanup du code
+
+Nous revu la documentation du projet:
+   - Mise à jour de la prise en main
+   - lien vers la prise main dans les reasdme.md
+   - Mise à jour des schémas des pipelines/infrastructure
+
+Nous avons préparé le rendu final
+   - Présentation
+   - vidéo
+
