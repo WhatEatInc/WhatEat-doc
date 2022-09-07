@@ -234,3 +234,32 @@ Pour avoir une meilleure vue d'ensemble du projet, voici la structure des dossie
 		\end{multicols}
 	\end{TreeStruct}
 
+# Prise en main par un nouveau développeur de l'équipe WhatEat
+
+Si vous êtes nouveau développeur dans l'équipe de WhatEat et que vous souhaitez prendre en main le projet, voici les différentes étapes à suivre pour pouvoir travailler sur le projet.
+
+## Prérequis
+
+Pour pouvoir travailler sur le projet, veuillez avoir lu au préalable la première partie de ce document afin d'avoir les connaissances nécessaires pour installer et configurer le projet. 
+
+## Méthodes de développement
+
+Lorsque vous collaborez sur le projet WhatEat, merci de bien vouloir respecter les méthodes de développement décrites dans le document [Rapport de projet](https://github.com/WhatEatInc/WhatEat-doc/tree/main/Rapport%20de%20projet) plus précisément au chapitre [Méthodes de développement](https://github.com/WhatEatInc/WhatEat-doc/tree/main/Rapport%20de%20projet#m%C3%A9thodes-de-d%C3%A9veloppement)
+
+Dans ce chapitre vous trouverez les différentes manières d'organiser les branches, gérer les issues, nommer ses commit, etc...
+
+## Mise en place des outils de développement
+
+Afin d'avoir un environnement de développement similaire à celui des autres développeurs, veuillez suivre les étapes décrites dans le document [Rapport de projet](https://github.com/WhatEatInc/WhatEat-doc/tree/main/Rapport%20de%20projet) plus précisément au chapitre [Mise en place des outils de développement](https://github.com/WhatEatInc/WhatEat-doc/tree/main/Rapport%20de%20projet#mise-en-place-des-outils-de-d%C3%A9veloppement)
+
+## Environnement de déploiement et pipeline de livraison
+
+Pour terminer, il vous est fortement conseillé d'aller lire la chapitre [Mise en place d’un environnement de déploiement](https://github.com/WhatEatInc/WhatEat-doc/tree/main/Rapport%20de%20projet#mise-en-place-dun-environnement-de-d%C3%A9ploiement) et [Mise en place d’un pipeline de livraison et de déploiement (CI/CD)](https://github.com/WhatEatInc/WhatEat-doc/tree/main/Rapport%20de%20projet#mise-en-place-dun-pipeline-de-livraison-et-de-d%C3%A9ploiement-cicd) afin de comprendre comment le projet est déployé et comment le pipeline de livraison fonctionne. (Voir la figure ci-dessous)
+
+\pagebreak
+
+### Pipeline de livraison
+
+Pour rappel, le pipeline de livraison est le suivant :
+
+![Pipeline de livraison](https://user-images.githubusercontent.com/49392659/186888512-bd6b61aa-47b6-438c-a1e0-caa91cd6007f.png)
