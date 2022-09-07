@@ -234,7 +234,7 @@ Pour avoir une meilleure vue d'ensemble du projet, voici la structure des dossie
 		\end{multicols}
 	\end{TreeStruct}
 
-# Prise en main par un nouveau développeur de l'équipe WhatEat
+# Nouveau développeur dans l'équipe WhatEat
 
 Si vous êtes nouveau développeur dans l'équipe de WhatEat et que vous souhaitez prendre en main le projet, voici les différentes étapes à suivre pour pouvoir travailler sur le projet.
 
