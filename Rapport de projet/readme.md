@@ -197,7 +197,9 @@ Les deux pipelines ont la même logique de base à savoir :
 \
 \
 
-![Pipeline drawio](https://user-images.githubusercontent.com/49392659/186888512-bd6b61aa-47b6-438c-a1e0-caa91cd6007f.png)
+![Pipeline frontend](./images/pipeline-frontend.png)
+
+![Pipeline backend](./images/pipeline-backend.png)
 
 \pagebreak
 

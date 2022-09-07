@@ -258,8 +258,10 @@ Pour terminer, il vous est fortement conseillé d'aller lire la chapitre [Mise e
 
 \pagebreak
 
-### Pipeline de livraison
+## Pipeline de livraison
 
 Pour rappel, le pipeline de livraison est le suivant :
 
-![Pipeline de livraison](https://user-images.githubusercontent.com/49392659/186888512-bd6b61aa-47b6-438c-a1e0-caa91cd6007f.png)
+![Pipeline frontend](./images/pipeline-frontend.png)
+
+![Pipeline backend](./images/pipeline-backend.png)
