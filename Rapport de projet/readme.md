@@ -4,7 +4,7 @@ geometry: true
 lang: "fr"
 toc: true
 toc-own-page: true
-colorlinks: blue
+colorlinks: true
 custom-title-page: true
 custom-title-page-logo: images/logo.png
 fontfamily: sourcesanspro
@@ -13,6 +13,7 @@ title: "Rapport de projet"
 subtitle: "Cours PDG"
 location: "HEIG-VD"
 linestretch: 1.3
+numbersections: true
 ...
 
 # Introduction
@@ -301,6 +302,8 @@ En fin de sprint, nous avons récupéré les données de temps indiquées dans l
 Les résultats obtenus pour le backend et le frontend montrent que dans les deux cas, le temps effectué est le double du temps attendu. De plus, nous constatons que le temps effectué est légèrement supérieur au temps pessimiste (env 4h dans les deux cas). 
 
 Nous pouvons donc en conclure que pour nos futurs projets, il sera nécessaire de revoir à la hausse nos estimations "attendue". Nous restons tout de même assez satisfait du fait que le temps effectué soit très proche du temps pessimiste.
+
+![Résumé comparaison des temps](./images/chart.svg)
 
 \pagebreak
 
