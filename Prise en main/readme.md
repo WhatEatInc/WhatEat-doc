@@ -136,10 +136,11 @@ Pour avoir une meilleure vue d'ensemble du projet, voici la structure des dossie
 				.3 preference.model.js.
                 .3 recipe.model.js.
                 .2 routes/.
-				.3 apiDoc.routes.js.
-				.3 recipe.routes.js.
-				.3 user.routes.js.
-				.3 v0.routes.js.
+                .3 v0/.
+				.4 apiDoc.routes.js.
+				.4 recipe.routes.js.
+				.4 user.routes.js.
+				.4 v0.routes.js.
                 .2 tests/.
                 .2 app.js.
                 .2 server.js.
@@ -160,6 +161,7 @@ Pour avoir une meilleure vue d'ensemble du projet, voici la structure des dossie
 				Modèle des préférences \\
                 Modèle des recettes \\
                 Contient les routes de l'API \\
+                \\
 				Routes de la documentation \\
 				Routes des recettes \\
 				Routes des utilisateurs \\
