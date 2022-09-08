@@ -58,7 +58,7 @@ Pour la réalisation de ce projet, nous avons utilisé les technologies suivante
   - Nous avons décidé d'utiliser Github Actions pour executer nos tests d'intégration automatiquement
 - Jest pour les tests d'intégration
   - Nous nous sommes aussi renseignés sur Mocha et Chai. Nous avons choisi Jest, car plusieurs membres l'on déjà utilisé auparavant.
-- Prettier pour le formattage du code
+- Prettier pour le formatage du code
   - Nous avons préféré Prettier à ESlint car cela est plus facile à utiliser selon nous, car nous ne sommes pas encore très à l'aise avec ce type d'outil.
 - Spooncular API
    - Nous avons cherché les différentes API de recettes à disposition et Spooncular est resortie comme étant très complète, mais payante. Nous les avons contactés car nous avons vu qu'il y avait une offre pour les Hackathon ou les projects académique.
@@ -174,7 +174,7 @@ Pour ce qui est des tests unitaires, ils sont effectués avec Jest. Ils peuvent 
 
 Nous avons 3 cloud provider :
 
-- Heroku : Il est utilisé pour host le backend de l'application gratuitement, il watch le repo whateat-backend, dès lors qu'une modification est détéctée sur le repo, il récupère les changements, rebuild de son côté et "serve" le tout.
+- Heroku : Il est utilisé pour host le backend de l'application gratuitement, il watch le repo whateat-backend, dès lors qu'une modification est détectée sur le repo, il récupère les changements, rebuild de son côté et "serve" le tout.
 
 - Netlify : Il est utilisé pour host le front gratuitement, un bot netlify est installé sur notre repo il lance les tests, et de la même manière qu'Heroku, Netlify watch le repo whateat-front et à chaque changement il récupère les données et les "serve".
 
@@ -193,7 +193,7 @@ Nous avons mis en place 2 pipelines, un pour le frontend, l'autre pour le backen
 Les deux pipelines ont la même logique de base à savoir :
 
 1. Le développeur merge sa feature branch sur la branche de dev
-2. Les CI/CD github sont executées selon la branche (cf. Figure 2)
+2. Les CI/CD github sont exécutées selon la branche (cf. Figure 2)
 3. Lorsque la branch main a été changé les clouds providers (Netlify, Heroku) viennent prendre les derniers changements et s'occupe de serve ce contenu.
 \
 \
@@ -276,22 +276,29 @@ Durant ce sprint, une tâche nous pris plus de temps que prévu. Il s'agit de la
 
 ## Sprint 3
 
-Nous avons fini les issues manquantes sur Github:
-   - Endpoint Reroll
-   - Landing Page
-   - Boutton Reroll
-   - finir la page Today
-   - Test Jest
-   - Cleanup du code
+Pour ce dernier sprint, nous avons décomposé le travail en deux parties. La première partie consistait à terminer les fonctionnalités de l'application. La seconde partie à produire les différents documents de rendus du projet.
 
-Nous revu la documentation du projet:
-   - Mise à jour de la prise en main
-   - lien vers la prise main dans les reasdme.md
-   - Mise à jour des schémas des pipelines/infrastructure
+Nous avons donc terminé et fermé les issues manquantes sur Github:
 
-Nous avons préparé le rendu final
-   - Présentation
-   - vidéo
+   - Création de l'endpoint reroll et connexion avec le frontend
+   - Design de la landing Page
+   - Design de la page Login, Logout et Register
+   - Fin de la page Today avec toutes les connexions au backend
+   - Ajout de nombreux tests unitaires avec Jest
+   - Cleanup général du code et correction de bugs
+
+Dans un second temps, nous avons revu la documentation du projet afin de terminer la rédaction de tous les documents attendus.
+
+   - Mise à jour de la prise en main du projet
+   - Mise à jour du rapport de projet
+   - Mise à jour des schémas des pipelines / infrastructure
+   - Mise à jour de la documentation de l'API
+   - Ajout de la comparaison du temps attendu vs effectué
+
+Nous avons également préparé le rendu final du projet
+
+   - Présentation PowerPoint du projet
+   - Vidéo de présentation du projet
 
 \pagebreak
 
