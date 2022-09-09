@@ -14,6 +14,7 @@ subtitle: "Cours PDG"
 location: "HEIG-VD"
 linestretch: 1.3
 tables: true
+numbersections: true
 ...
 
 # Introduction
